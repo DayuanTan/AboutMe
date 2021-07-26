@@ -41,5 +41,8 @@ Show how to use Javascript customElement and shadow DOM.
 
 5. [Learn crawl data from quora](https://github.com/DayuanTan/learn_crawl_quora)
 
+## Others
+[As volunteer in the Coursera's Global Translator Community](https://github.com/DayuanTan/translateCoursera)
+
 ## Links to other sources
 
