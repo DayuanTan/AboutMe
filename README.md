@@ -1,19 +1,20 @@
 # AboutMe
 
+# My Github Repos:
 
-# Practice Projects
+## Practice Projects
 
-## [Tasks List](https://github.com/DayuanTan/app_tasks_list)
+### [Tasks List](https://github.com/DayuanTan/app_tasks_list)
 A tasks list management application. User can create, delete, sort tasks, and add date, mark as important, check/uncheck for each task.
 
 
-# Course Projects
+## Course Projects
 
-## [Web based pokemon game ](https://github.com/DayuanTan/pokemon_web_game)
+### [Web based pokemon game ](https://github.com/DayuanTan/pokemon_web_game)
 
 
 
-# Notes
+## Notes
 1. [Learn sortablejs:](https://github.com/DayuanTan/learn_sortablejs)
 My notes when I learn how to use sortablejs for frontend javascript.
 
