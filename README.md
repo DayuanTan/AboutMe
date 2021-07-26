@@ -20,12 +20,19 @@ Project 1: Socket. Create a new thread for each client connection.
 
 Project 2: Design a distributed system.
 
+
+### [Script Languages: Web based pokemon game](https://github.com/DayuanTan/pokemon_web_game):
+A web based pokemon game. Gamers can capture, train pokemon sprites and fight against other polemon sprites.
+
+
 ### [Wireless Sensor Network: RSSI-based Localication using four sensors](https://github.com/DayuanTan/CMSC684wsn):
 Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.
 
-### [Use KNN to predict stock price](https://github.com/DayuanTan/knn_predictprice).
+### [Advanced Computer Architecture: Improve the performance from architecture perspective for a KNN-stock-price-prediction program](https://github.com/DayuanTan/knn_predictprice):
+Pre-process stock price data; Use KNN to predict stock price. 
 
-### [Script Languages: Web based pokemon game ](https://github.com/DayuanTan/pokemon_web_game).
+Optimize the performance by Floating Point Squaring, Cache Resizing and Branch Prediction.
+[Report here](https://github.com/DayuanTan/knn_predictprice/blob/master/CMSC%20611%20Project%20Report.pdf).
 
 
 
