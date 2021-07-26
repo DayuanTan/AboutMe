@@ -15,6 +15,10 @@ Project 1: Socket. Create a new thread for each client connection.
 
 Project 2: Design a distributed system.
 
+### [Wireless Sensor Network: RSSI-based Localication using four sensors](https://github.com/DayuanTan/CMSC684wsn)
+Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.
+
+
 ### [Web based pokemon game ](https://github.com/DayuanTan/pokemon_web_game)
 
 
