@@ -15,6 +15,9 @@ A tasks list management application. User can create, delete, sort tasks, and ad
 
 
 ## Notes
+
+1. [My notes about the boook "Crack the code interview, 6th edition".](https://github.com/DayuanTan/CrackCodeInterviewAndLeetcode/tree/master)
+
 1. [Learn sortablejs:](https://github.com/DayuanTan/learn_sortablejs)
 My notes when I learn how to use sortablejs for frontend javascript.
 
