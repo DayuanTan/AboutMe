@@ -2,7 +2,7 @@
 
 Current Computer Science Ph.D. student.
 
-# My Github Repos:
+# My Github Repos
 
 ## Algorithms and Practices, Leetcode
 [AlgorithmsAndPractices](https://github.com/DayuanTan/AlgorithmsAndPractices)
