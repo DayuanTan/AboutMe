@@ -2,6 +2,9 @@
 
 # My Github Repos:
 
+## Algorithms and Practices, Leetcode
+[AlgorithmsAndPractices](https://github.com/DayuanTan/AlgorithmsAndPractices)
+
 ## Practice Projects
 
 ### [Tasks List](https://github.com/DayuanTan/app_tasks_list)
