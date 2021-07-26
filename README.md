@@ -1,5 +1,7 @@
 # AboutMe
 
+Current Computer Science Ph.D. student.
+
 # My Github Repos:
 
 ## Algorithms and Practices, Leetcode
