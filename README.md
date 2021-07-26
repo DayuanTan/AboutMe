@@ -10,6 +10,11 @@ A tasks list management application. User can create, delete, sort tasks, and ad
 
 ## Course Projects
 
+### [Advanced Operating System class projects: ](https://github.com/DayuanTan/DistributedSystemDesign)
+Project 1: Socket. Create a new thread for each client connection.
+
+Project 2: Design a distributed system.
+
 ### [Web based pokemon game ](https://github.com/DayuanTan/pokemon_web_game)
 
 
