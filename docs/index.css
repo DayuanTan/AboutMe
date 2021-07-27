@@ -1,6 +1,11 @@
+h3 {
+    text-decoration: underline overline;
+}
+
 .research_interests {
     font-style: italic;
 }
+
 
 
 
