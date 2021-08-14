@@ -48,8 +48,8 @@ My notes when I learn how to use sortablejs for frontend javascript.
 4. [JS_customElement_shadowDOM_eg:](https://github.com/DayuanTan/JS_customElement_shadowDOM_eg)
 Show how to use Javascript customElement and shadow DOM.
 
-5. [Learn crawl data from quora](https://github.com/DayuanTan/learn_crawl_quora).
-
+5. [Learn crawling data from quora](https://github.com/DayuanTan/learn_crawl_quora).
+Use BeautifulSoup4 etc. to crawl questions and answers about Bitcoin from quoral.
 
 6. [Python data analysis and display](https://github.com/DayuanTan/OlympicAthlete): 
 Use python numpy, pandas, matplotlib.pyplot and seaborn to do some data analysis and display.
