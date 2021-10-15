@@ -29,9 +29,9 @@ A web based pokemon game. Gamers can capture, train pokemon sprites and fight ag
 Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.
 
 ### [Advanced Computer Architecture: Improve the performance from architecture perspective for a KNN-stock-price-prediction program](https://github.com/DayuanTan/knn_predictprice):
-Pre-process stock price data; Use KNN to predict stock price. 
+Phase 1: Pre-process stock price data; Use KNN to predict stock price. 
 
-Optimize the performance by Floating Point Squaring, Cache Resizing and Branch Prediction.
+Phase 2: **Optimize the performance by *Floating Point Squaring, Cache Resizing* and *Branch Prediction***.
 [Report here](https://github.com/DayuanTan/knn_predictprice/blob/master/CMSC%20611%20Project%20Report.pdf).
 
 
