@@ -34,7 +34,9 @@ Phase 1: Pre-process stock price data; Use KNN to predict stock price.
 Phase 2: **Optimize the performance by *Floating Point Squaring, Cache Resizing* and *Branch Prediction***.
 [Report here](https://github.com/DayuanTan/knn_predictprice/blob/master/CMSC%20611%20Project%20Report.pdf).
 
+### [Computer Architecture: Design your ISA and Hardware; Test using Quartus (ModelSim)](https://github.com/DayuanTan/ComputerArchitecture)
 
+Design an instruction set and overall architecture (ISA) for a special-purpose reduced instruction set (RISC) processor. Design the hardware for the processor core.
 
 ## Notes
 
