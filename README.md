@@ -4,6 +4,11 @@ Current Computer Science Ph.D. student. Check out my homepage [here](https://day
 
 # My Github Repos
 
+## Open Source Academic Research
+
+All of my open source academic researches, actually most of my academic researches, are listed [here](https://github.com/DayuanTan/OpenSourceAcademicResearch).
+
+
 ## Algorithms and Practices, Leetcode
 [AlgorithmsAndPractices](https://github.com/DayuanTan/AlgorithmsAndPractices)
 
