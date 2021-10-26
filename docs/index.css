@@ -18,7 +18,9 @@ h4 {
     font-style: italic;
 }
 
-
+.col-sm-8 img{
+    width: 40%;
+}
 
 
 footer {
