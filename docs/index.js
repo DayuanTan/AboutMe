@@ -1,0 +1,15 @@
+function  imgslider(){
+    // img slider refer to https://www.codingsnow.com/2021/01/image-slider-with-auto-play-manual.html
+    var counter = 1;
+    setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 3){
+        counter = 1;
+    }
+    }, 2000);
+
+}
+
+// starts here
+document.addEventListener('DOMContentLoaded', imgslider);

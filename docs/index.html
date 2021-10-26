@@ -6,6 +6,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
 
   <link rel="stylesheet" href="index.css">
 </head>
@@ -82,7 +83,7 @@
       <h5><a href="https://github.com/DayuanTan/app_tasks_list">Tasks List</a></h5>
       <p>A tasks list management application. User can create, delete, sort tasks, and add date, mark as important, check/uncheck for each task.</p>
       <p>Tech Stack: Linux/Ubuntu, Tomcat, Axis, MySQL, JAVA, Eclipse </p>
-      <img alt="Tasks List Screenshot" src="img/TasksListScreenShot.png"></img>
+      <img class="img1" alt="Tasks List Screenshot" src="img/TasksListScreenShot.png"></img>
 
 
 
@@ -94,27 +95,83 @@
       <p>Project 1: Socket. Create a new thread for each client connection.
       <br/>
       Project 2: Design a distributed system including load balancer, Byzantine Fault Tolerence.</p>
-      <img alt="OS1" src="img/os1.png"></img>
-      <img alt="OS2" src="img/os2.png"></img>
+
+      <!--image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="img/os1.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/os2.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/os3.png" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
 
   
-      <h5><a href="https://github.com/DayuanTan/app_tasks_list">Script Languages: Web based pokemon game:</a></h5>
+      <br/>
+      <br/>
+      
+      <h5><a href="https://github.com/DayuanTan/app_tasks_list">Wireless Sensor Network: RSSI-based Localication using four sensors:</a></h5>
 
-A web based pokemon game. Gamers can capture, train pokemon sprites and fight against other polemon sprites.
+      Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.
 
-<h5><a href="https://github.com/DayuanTan/app_tasks_list">Wireless Sensor Network: RSSI-based Localication using four sensors:</a></h5>
+      <h5><a href="https://github.com/DayuanTan/app_tasks_list">Advanced Computer Architecture: Improve the performance from architecture perspective for a KNN-stock-price-prediction program:</a></h5>
 
-Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.
+      Phase 1: Pre-process stock price data; Use KNN to predict stock price.
 
-<h5><a href="https://github.com/DayuanTan/app_tasks_list">Advanced Computer Architecture: Improve the performance from architecture perspective for a KNN-stock-price-prediction program:</a></h5>
+      Phase 2: Optimize the performance by Floating Point Squaring, Cache Resizing and Branch Prediction. Report here.
 
-Phase 1: Pre-process stock price data; Use KNN to predict stock price.
+      <h5><a href="https://github.com/DayuanTan/app_tasks_list">Computer Architecture: Design your ISA and Hardware; Test using Quartus (ModelSim)</a></h5>
 
-Phase 2: Optimize the performance by Floating Point Squaring, Cache Resizing and Branch Prediction. Report here.
+      Design an instruction set and overall architecture (ISA) for a special-purpose reduced instruction set (RISC) processor. Design the hardware for the processor core.
 
-<h5><a href="https://github.com/DayuanTan/app_tasks_list">Computer Architecture: Design your ISA and Hardware; Test using Quartus (ModelSim)</a></h5>
+      <h5><a href="https://github.com/DayuanTan/pokemon_web_game">Script Languages: Web based pokemon game:</a></h5>
 
-Design an instruction set and overall architecture (ISA) for a special-purpose reduced instruction set (RISC) processor. Design the hardware for the processor core.
+      A web based pokemon game. Gamers can capture, train pokemon sprites and fight against other polemon sprites.
+
+      <table border=1>
+        <tr>
+          <th>Tech Stack:<th/>
+        <tr/>
+        <tr>
+          <td>Server:	<td/><td> Apache inside XAMPP<td/>
+        <tr/>
+        <tr>
+          <td>Backend Development Language:	<td/><td> PHP<td/>
+        <tr/>
+        <tr>
+          <td>Frontend Development Language:	<td/><td> HTML, CSS, JavaScript<td/>
+        <tr/>
+        <tr>
+          <td>Database:<td/><td> 	MariaDB (similar to MySQL)<td/>
+        <tr/>
+      <table/>
 
     </div>
 
