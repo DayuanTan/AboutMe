@@ -5,7 +5,11 @@
     width: 120px;
 }
 
-
+h2 {
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: underline overline;
+}
 h4 {
     text-decoration: underline overline;
 }
@@ -20,6 +24,11 @@ h4 {
 footer {
     text-align: center;
     color: gainsboro;
+    background-color:#e9ecef;
+    margin: 0 0 0;
+}
+footer p {
+    margin-bottom: 0;
 }
 
 footer a {
