@@ -22,8 +22,16 @@ h4 {
     width: 100%;
 }
 
+table th,td{
+    padding: 3px 3px 3px 5px; 
+}
+
 
 footer {
+    width: 100%;
+    position:bottom;
+    bottom:0;
+    left:0;
     text-align: center;
     color: gainsboro;
     background-color:#e9ecef;
@@ -44,7 +52,7 @@ footer a {
 /* below are for img slider */
 
 .slider{
-    width: 800px;
+    width: 100%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -67,7 +75,6 @@ footer a {
   
   .slide img{
     width: 100%;
-    /* height: 500px; */
   }
   
   /*css for manual slide navigation*/
@@ -81,7 +88,7 @@ footer a {
   }
   
   .manual-btn{
-    border: 2px solid blue;
+    border: 2px solid #007bff;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -93,7 +100,7 @@ footer a {
   }
   
   .manual-btn:hover{
-    background: blue;
+    background: #007bff;
   }
   
   #radio1:checked ~ .first{
@@ -123,7 +130,7 @@ footer a {
   }
   
   .navigation-auto div{
-    border: 2px solid blue;
+    border: 2px solid #007bff;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -134,19 +141,19 @@ footer a {
   }
   
   #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: blue;
+    background: #007bff;
   }
   
   #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: blue;
+    background: #007bff;
   }
   
   #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: blue;
+    background: #007bff;
   }
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: blue;
+    background: #007bff;
   }
 
   /* above are for img slider */
