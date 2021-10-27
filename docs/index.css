@@ -57,6 +57,9 @@ footer a {
     border-radius: 10px;
     overflow: hidden;
   }
+.sliderwsn{
+    height: 670px;
+  }
   
   .slides{
     width: 500%;
@@ -85,6 +88,9 @@ footer a {
     margin-top: -40px;
     display: flex;
     justify-content: center;
+  }
+  .navigation-manual-wsn{
+    margin-top: 80px;
   }
   
   .manual-btn{
@@ -118,6 +124,22 @@ footer a {
   #radio4:checked ~ .first{
     margin-left: -60%;
   }
+
+  #radiowsn1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radiowsn2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radiowsn3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radiowsn4:checked ~ .first{
+    margin-left: -60%;
+  }
   
   /*css for automatic navigation*/
   
@@ -127,6 +149,9 @@ footer a {
     width: 800px;
     justify-content: center;
     margin-top: 460px;
+  }
+  .navigation-auto-wsn{
+    margin-top: 580px;
   }
   
   .navigation-auto div{
@@ -153,6 +178,22 @@ footer a {
   }
   
   #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+  #radiowsn1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  
+  #radiowsn2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  
+  #radiowsn3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  
+  #radiowsn4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
 
