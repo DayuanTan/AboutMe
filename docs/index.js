@@ -23,6 +23,7 @@ function  imgslider(){
         if(counterarchi > 4){
             counterarchi = 1;
         }
+
     }, 2000);
 }
 

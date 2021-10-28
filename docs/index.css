@@ -18,7 +18,7 @@ h4 {
     font-style: italic;
 }
 
-.img1{
+.only1img{
     width: 100%;
 }
 
@@ -60,6 +60,7 @@ footer a {
 .sliderwsn{
     height: 670px;
   }
+
   
   .slides{
     width: 500%;
@@ -140,6 +141,22 @@ footer a {
   #radiowsn4:checked ~ .first{
     margin-left: -60%;
   }
+
+  #radioarchi1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radioarchi2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radioarchi3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radioarchi4:checked ~ .first{
+    margin-left: -60%;
+  }
   
   /*css for automatic navigation*/
   
@@ -194,6 +211,22 @@ footer a {
   }
   
   #radiowsn4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+  #radioarchi1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  
+  #radioarchi2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  
+  #radioarchi3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  
+  #radioarchi4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
 
