@@ -5,6 +5,7 @@ function  imgslider(){
     var counter = 1;
     var counterwsn = 1;
     var counterarchi = 1;
+    var counteradvancedarchi = 1;
     setInterval(function(){
         document.getElementById('radio' + counter).checked = true;
         counter++;
@@ -22,6 +23,12 @@ function  imgslider(){
         counterarchi++;
         if(counterarchi > 4){
             counterarchi = 1;
+        }
+
+        document.getElementById('radioadvancedarchi' + counteradvancedarchi).checked = true;
+        counteradvancedarchi++;
+        if(counteradvancedarchi > 5){
+            counteradvancedarchi = 1;
         }
 
     }, 2000);
