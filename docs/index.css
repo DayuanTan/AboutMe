@@ -53,15 +53,21 @@ footer a {
 
 .slider{
     width: 100%;
-    height: 500px;
+    height: 490px;
     border-radius: 10px;
     overflow: hidden;
   }
 .sliderwsn{
     height: 670px;
   }
-  .slider_advancedarchi{
+.sliderarchi{
+    height: 500px;
+  }
+.slider_advancedarchi{
     height: 625px;
+  }
+.slider_ds_bank{
+    height: 520px;
   }
 
   
@@ -119,15 +125,12 @@ footer a {
   #radio1:checked ~ .first{
     margin-left: 0;
   }
-  
   #radio2:checked ~ .first{
     margin-left: -20%;
   }
-  
   #radio3:checked ~ .first{
     margin-left: -40%;
   }
-  
   #radio4:checked ~ .first{
     margin-left: -60%;
   }
@@ -135,15 +138,12 @@ footer a {
   #radiowsn1:checked ~ .first{
     margin-left: 0;
   }
-  
   #radiowsn2:checked ~ .first{
     margin-left: -20%;
   }
-  
   #radiowsn3:checked ~ .first{
     margin-left: -40%;
   }
-  
   #radiowsn4:checked ~ .first{
     margin-left: -60%;
   }
@@ -175,6 +175,16 @@ footer a {
   }
   #radioadvancedarchi5:checked ~ .first{
     margin-left: -80%;
+  }
+
+  #radiodsbank1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsbank2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsbank3:checked ~ .first{
+    margin-left: -40%;
   }
 
   
@@ -209,15 +219,12 @@ footer a {
   #radio1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
   }
-  
   #radio2:checked ~ .navigation-auto .auto-btn2{
     background: #007bff;
   }
-  
   #radio3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
-  
   #radio4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
@@ -225,15 +232,12 @@ footer a {
   #radiowsn1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
   }
-  
   #radiowsn2:checked ~ .navigation-auto .auto-btn2{
     background: #007bff;
   }
-  
   #radiowsn3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
-  
   #radiowsn4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
@@ -241,15 +245,12 @@ footer a {
   #radioarchi1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
   }
-  
   #radioarchi2:checked ~ .navigation-auto .auto-btn2{
     background: #007bff;
   }
-  
   #radioarchi3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
-  
   #radioarchi4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
@@ -268,6 +269,17 @@ footer a {
     background: #007bff;
   }
   #radioadvancedarchi5:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+
+  #radiodsbank1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsbank2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsbank3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
 

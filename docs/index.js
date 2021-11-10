@@ -6,6 +6,7 @@ function  imgslider(){
     var counterwsn = 1;
     var counterarchi = 1;
     var counteradvancedarchi = 1;
+    var counterdsbank = 1;
     setInterval(function(){
         document.getElementById('radio' + counter).checked = true;
         counter++;
@@ -29,6 +30,12 @@ function  imgslider(){
         counteradvancedarchi++;
         if(counteradvancedarchi > 5){
             counteradvancedarchi = 1;
+        }
+
+        document.getElementById('radiodsbank' + counterdsbank).checked = true;
+        counterdsbank++;
+        if(counterdsbank > 3){
+            counterdsbank = 1;
         }
 
     }, 2000);
