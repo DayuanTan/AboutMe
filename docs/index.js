@@ -8,7 +8,7 @@ function  imgslider(){
     var counteradvancedarchi = 1;
     var counterdsbank = 1;
     setInterval(function(){
-        document.getElementById('radio' + counter).checked = true;
+        document.getElementById('radio-aos' + counter).checked = true;
         counter++;
         if(counter > 3){
             counter = 1;

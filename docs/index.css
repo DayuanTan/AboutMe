@@ -53,7 +53,7 @@ footer a {
 
 .slider{
     width: 100%;
-    height: 490px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -66,9 +66,7 @@ footer a {
 .slider_advancedarchi{
     height: 625px;
   }
-.slider_ds_bank{
-    height: 520px;
-  }
+
 
   
   .slides{
@@ -105,6 +103,7 @@ footer a {
   .navigation-manual-advanced-archi{
     margin-top: 80px;
   }
+ 
   
   .manual-btn{
     border: 2px solid #007bff;
@@ -122,18 +121,16 @@ footer a {
     background: #007bff;
   }
   
-  #radio1:checked ~ .first{
+  #radio-aos1:checked ~ .first{
     margin-left: 0;
   }
-  #radio2:checked ~ .first{
+  #radio-aos2:checked ~ .first{
     margin-left: -20%;
   }
-  #radio3:checked ~ .first{
+  #radio-aos3:checked ~ .first{
     margin-left: -40%;
   }
-  #radio4:checked ~ .first{
-    margin-left: -60%;
-  }
+ 
 
   #radiowsn1:checked ~ .first{
     margin-left: 0;
@@ -205,6 +202,7 @@ footer a {
     margin-top: 580px;
   }
   
+  
   .navigation-auto div{
     border: 2px solid #007bff;
     padding: 5px;
@@ -216,18 +214,16 @@ footer a {
     margin-right: 40px;
   }
   
-  #radio1:checked ~ .navigation-auto .auto-btn1{
+  #radio-aos1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
   }
-  #radio2:checked ~ .navigation-auto .auto-btn2{
+  #radio-aos2:checked ~ .navigation-auto .auto-btn2{
     background: #007bff;
   }
-  #radio3:checked ~ .navigation-auto .auto-btn3{
+  #radio-aos3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
-  #radio4:checked ~ .navigation-auto .auto-btn4{
-    background: #007bff;
-  }
+
 
   #radiowsn1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
