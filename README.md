@@ -1,6 +1,9 @@
 # [AboutMe](https://dayuantan.github.io/AboutMe/)
 
-Current Computer Science Ph.D. student. Check out my homepage [here](https://dayuantan.github.io/AboutMe/).
+Please check out my homepage [here](https://dayuantan.github.io/AboutMe/).
+
+
+
 
 # 1. My Github Repos
 
