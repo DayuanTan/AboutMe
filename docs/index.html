@@ -143,7 +143,33 @@
       <h4>Projects:</h4>
 
 
-      <h5><a href="https://github.com/DayuanTan/DistributedOS">Distributed System: A Centralized Multi-User Concurrent Bank Account Manager (Multithreading, Synchronization, Mutex)</a></h5>
+      <table>
+        <tr>
+          <th>Projects Categories</th>
+          <th>Project Names</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Distributed Systems</td>
+          <td><a href="#dsbank">A Centralized Multi-User Concurrent Bank Account Manager (Multithreading, Synchronization, Mutex). </a>C++.</td>
+        </tr>
+        <tr>
+          <td><a href="#ds_loadbalancer">A distributed system with load balancer. </a>Java.</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Computer Architecture</td>
+          <td>Design your ISA and Hardwares; Test using Quartus (ModelSim)</td>
+        </tr>
+        <tr>
+          <td><a href="#ds_loadbalancer">Improve the performance from architecture perspective for 2 stock-price-prediction programs. </a>Java.</td>
+        </tr>
+      </table>
+
+
+
+
+      <br/>
+      <br/>
+      <h5><a id="dsbank" href="https://github.com/DayuanTan/DistributedOS">Distributed System: A Centralized Multi-User Concurrent Bank Account Manager (Multithreading, Synchronization, Mutex)</a></h5>
       <p><strong>Key Words:</strong> Distributed System, Concurrent, Multithreads, Synchronization, Concurent, Critial Section</p>
       <p><strong>Tech Stack:</strong> Linux/Ubuntu, C++11, POSIX </p>
       <p>One thread for each client. Synchronization is ensured by add mutex load for each account. Did scalability experiments.
@@ -197,7 +223,7 @@
       <br/>
       <br/>
       <hr>
-      <h5><a href="https://github.com/DayuanTan/DistributedSystemDesign">Advanced Operating System: A distributed system with load balancer</a></h5>
+      <h5><a id="ds_loadbalancer" href="https://github.com/DayuanTan/DistributedSystemDesign">Advanced Operating System: A distributed system with load balancer</a></h5>
       <p><strong>Key Words:</strong> Distributed System, Load Balancer, Byzantine Fault Tolerence</p>
       <p><strong>Tech Stack:</strong> Linux/Ubuntu, Tomcat, Axis, MySQL, JAVA, Eclipse </p>
       <p>Project 1: Socket. Create a new thread for each client connection. (Python)</p>
@@ -303,7 +329,7 @@
       <br/>
       <br/>
       <hr>
-      <h5><a href="https://github.com/DayuanTan/knn_predictprice">Advanced Computer Architecture: Improve the performance from architecture perspective for 2 stock-price-prediction programs:</a></h5>
+      <h5><a href="https://github.com/DayuanTan/knn_predictprice">Advanced Computer Architecture: Improve the performance from architecture perspective for 2 stock-price-prediction programs</a></h5>
 
       Phase 1: Pre-process stock price data; Use KNN and linear regression to predict stock price.
       <br/>
@@ -381,7 +407,7 @@
       <br/>
       <br/>
       <hr>
-      <h5><a href="https://github.com/DayuanTan/pokemon_web_game">Script Languages: Web based pokemon game:</a></h5>
+      <h5><a href="https://github.com/DayuanTan/pokemon_web_game">Script Languages: Web based pokemon game</a></h5>
       <p>A web based pokemon game. Gamers can capture, train pokemon sprites and fight against other polemon sprites.</p>
       <p><strong>Key words:</strong> Webpage game, Backend, Frontend, Database</p>
       <table border=1>
@@ -408,7 +434,7 @@
       <br/>
       <br/>
       <hr>
-      <h5><a href="https://github.com/DayuanTan/CMSC684wsn">Wireless Sensor Network: RSSI-based Localication using four sensors:</a></h5>
+      <h5><a href="https://github.com/DayuanTan/CMSC684wsn">Wireless Sensor Network: RSSI-based Localication using four sensors</a></h5>
       <p><strong>Key words:</strong> WSN, Localization, GPS, RSSI, Mote, Hardware</p>
       <p><strong>Tech Stack:</strong> Fedora/Ubuntu, TinyOS, MEMSIC Smart Dust, Mote, IRIS, Crossbow, JAVA, <a href="https://people.eecs.berkeley.edu/~culler/WEI/labs/lab3-tinyos-intro/tinyos-intro.html">nesC</a> </p>
       <p>Use RSSI to locate sensors. All sensor nodes broadcast signals. One node receives their signals and sends the RSSI information to PC via serial port. PC uses thies RSSI information to locate other sensor nodes.</p>

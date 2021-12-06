@@ -30,6 +30,7 @@ h4 {
 
 table th,td{
     padding: 3px 3px 3px 5px; 
+    border: 1px solid black;
 }
 
 
