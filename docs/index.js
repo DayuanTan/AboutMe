@@ -34,7 +34,7 @@ function  imgslider(){
 
         document.getElementById('radiodsbank' + counterdsbank).checked = true;
         counterdsbank++;
-        if(counterdsbank > 3){
+        if(counterdsbank > 4){
             counterdsbank = 1;
         }
 

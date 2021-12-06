@@ -190,6 +190,9 @@ footer a {
   #radiodsbank3:checked ~ .first{
     margin-left: -40%;
   }
+  #radiodsbank4:checked ~ .first{
+    margin-left: -60%;
+  }
 
   
   
@@ -283,6 +286,9 @@ footer a {
     background: #007bff;
   }
   #radiodsbank3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsbank4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
 
