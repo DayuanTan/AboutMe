@@ -7,6 +7,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZKRRN0DSY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WZKRRN0DSY');
+  </script>
 
   <script src="index.js"></script>
   <link rel="stylesheet" href="index.css">
@@ -138,26 +148,37 @@
       
 
       <br/>
+      
       <h4>Our Open-source Academic Researches:</h4>
       <p><a href="https://github.com/DayuanTan/OpenSourceAcademicResearch">This GitHub repo</a> hosts our open source academic researches files, codes, data and so on.
       <br/>
       It includes:</p>
-      <br/>
-      <br/>
+      
+      
       <h5>PALM: Platoons Based Adaptive Traffic Light Control System for Mixed Vehicular Traffic</h5>
-      <p></p>
+      <ul>
+        <li>Published in <i>The 18th IEEE International Conference on Ubiquitous Intelligence and Computing (UIC 2021)</i>.</li> 
+        <li>UIC 2021 <a href="http://ieeesmartworld.org/uic/">official website</a>. (CCF <i>c</i> tier, CORE <i>b</i> tier, QUALIS <i>b2</i> tier).
+        <li>Paper on <a href="https://ieeexplore.ieee.org/document/9604470">IEEE Xplore</a>. </li>
+        <li><a href="https://www.researchgate.net/publication/356369368_PALM_Platoons_Based_Adaptive_Traffic_Light_Control_System_for_Mixed_Vehicular_Traffic">Full text PDF on ResearchGate</a>.</li>
+        <li>Presentation <a href="https://www.youtube.com/watch?v=1FBGxjMKMS8">Video</a>, <a href="https://github.com/DayuanTan/OpenSourceAcademicResearch/blob/main/palm/UIC-1570728556.pdf">Slides</a>.</li>
+        <li><a href="https://scholar.google.com/scholar?hl=en&as_sdt=0%2C21&q=PALM%3A+Platoons+Based+Adaptive+Traffic+Light+Control+System+for+Mixed+Vehicular+Traffic&btnG=">Cite this paper</a>.</li>
+      </ul>
+      
 
-      <br/>
-      <br/>
+      <hr>
       <h5>A Novel Pedestrian Road Crossing Simulator for Dynamic Traffic Light Scheduling Systems</h5>
       <p></p>
       
 
 
+      
 
       <br/>
       <br/>
+      <br/>
       <h4>Projects:</h4>
+      
 
 
       <table>
@@ -200,10 +221,11 @@
 
       <br/>
       <br/>
+      <hr>
       <h5><a id="dsbank" href="https://github.com/DayuanTan/DistributedOS">Distributed System: A Centralized Multi-User Concurrent Bank Account Manager (Multithreading, Synchronization, Mutex)</a></h5>
       <p><strong>Key Words:</strong> Distributed System, Concurrent, Multithreads, Synchronization, Concurent, Critial Section</p>
       <p><strong>Tech Stack:</strong> Linux/Ubuntu, C++11, POSIX </p>
-      <p>One thread for each client. Synchronization is ensured by add mutex load for each account. Did scalability experiments.
+      <p>A centralized multi-user bank account management system. It supports one server and multtiple clients. The server creates a seperate thread for each client. Synchronization is ensured by add mutex load for each account. Did scalability experiments and analysis.
       
       <!--image slider start-->
       <div class="slider">
