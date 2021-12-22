@@ -195,6 +195,22 @@ footer a {
     margin-left: -60%;
   }
 
+  #radiodsmc1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsmc2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsmc3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiodsmc4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radiodsmc5:checked ~ .first{
+    margin-left: -80%;
+  }
+
   
   
   /*css for automatic navigation*/
@@ -290,6 +306,23 @@ footer a {
     background: #007bff;
   }
   #radiodsbank4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+
+  #radiodsmc1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsmc2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsmc3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsmc4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+  #radiodsmc5:checked ~ .navigation-auto .auto-btn5{
     background: #007bff;
   }
 
