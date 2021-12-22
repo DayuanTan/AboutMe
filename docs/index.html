@@ -190,7 +190,10 @@
           <th>Project Names</th>
         </tr>
         <tr>
-          <td rowspan="2">Distributed Systems</td>
+          <td rowspan="3">Distributed Systems</td>
+          <td><a href="#dsmulticast">Clock Synchronization (Berkeley Algorithm) and Multicast Ordering (FIFO, Causal). </a>C++.</td>
+        </tr>
+        <tr>
           <td><a href="#dsbank">A Centralized Multi-User Concurrent Bank Account Manager (Multithreading, Synchronization, Mutex). </a>C++.</td>
         </tr>
         <tr>
@@ -201,7 +204,7 @@
           <td><a href="#archi_isa">Design your ISA and Hardwares; Test using Quartus (ModelSim).</a> SystemVerilog.</td>
         </tr>
         <tr>
-          <td><a href="#archi_improve">Improve the performance from architecture perspective for 2 stock-price-prediction programs. </a></td>
+          <td><a href="#archi_improve">Improve the performance from architecture perspective for 2 stock-price-prediction programs. </a>Python, C++</td>
         </tr>
         <tr>
           <td rowspan="2">Full Stack</td>
@@ -218,6 +221,65 @@
 
 
 
+      <br/>
+      <br/>
+      <hr>
+      <h5><a id="dsmulticast" href="https://github.com/DayuanTan/multicast-programming-multicast-ordering">Distributed System: CLock Synchronization and Multicast Ordering</a></h5>
+      <p><strong>Key Words:</strong> Distributed System, Multicast Socket Programming, Multicat Ordering, FIFO Ordering, Causal Ordering, CLock Synchronization, Berkeley Algorithem, </p>
+      <p><strong>Tech Stack:</strong> Linux/Ubuntu, C++11, POSIX, Multicast Socket Programming, Peer-to-peer Socket Programming </p>
+      <p>Implemented the FIFO ordering and Causal Ordering using multicast socket programming for the multicast ordering of DS. <a href="https://github.com/DayuanTan/multicast-programming-multicast-ordering">GitHub</a>, <a href="https://www.youtube.com/watch?v=tAjdDsG9QZE">Video 1 of 2</a>, <a href="https://www.youtube.com/watch?v=xttLejh6K3o">2 of 2</a>.
+      </p>
+      <p>Implemented the Berkeley algorithm using peer-to-peer socket programming for the clock synchronization of DS. <a href="https://github.com/DayuanTan/berkeley-algorithm-implementation">Github</a>, <a href="https://www.youtube.com/watch?v=CJ6Mh3-2aaM">Video</a>.
+      </p>
+
+      <!--image slider start-->
+      <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn-dsbank" id="radiodsbank1">
+          <input type="radio" name="radio-btn-dsbank" id="radiodsbank2">
+          <input type="radio" name="radio-btn-dsbank" id="radiodsbank3">
+          <input type="radio" name="radio-btn-dsbank" id="radiodsbank4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="img/mc_fifo.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/mc_causal.png" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/mc_berkeley.jpeg" alt="">
+          </div>
+          <div class="slide">
+            <img src="img/mc_berkeley_record.png" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radiodsbank1" class="manual-btn"></label>
+          <label for="radiodsbank2" class="manual-btn"></label>
+          <label for="radiodsbank3" class="manual-btn"></label>
+          <label for="radiodsbank4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/tAjdDsG9QZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
 
       <br/>
       <br/>
@@ -226,7 +288,7 @@
       <p><strong>Key Words:</strong> Distributed System, Concurrent, Multithreads, Synchronization, Concurent, Critial Section</p>
       <p><strong>Tech Stack:</strong> Linux/Ubuntu, C++11, POSIX </p>
       <p>A centralized multi-user bank account management system. It supports one server and multtiple clients. The server creates a seperate thread for each client. Synchronization is ensured by add mutex load for each account. Did scalability experiments and analysis.
-      
+      </p>
       <!--image slider start-->
       <div class="slider">
         <div class="slides">
