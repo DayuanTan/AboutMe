@@ -262,6 +262,23 @@ footer a {
     margin-left: -80%;
   }
 
+
+  #radiodsmc_indexpage1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsmc_indexpage2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsmc_indexpage3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiodsmc_indexpage4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radiodsmc_indexpage5:checked ~ .first{
+    margin-left: -80%;
+  }
+
   
   
   /*css for automatic navigation*/
@@ -380,19 +397,19 @@ footer a {
 
 
 
-  #radiodsmc1-indexpage:checked ~ .navigation-auto .auto-btn1{
+  #radiodsmc_indexpage1:checked ~ .navigation-auto .auto-btn1{
     background: #007bff;
   }
-  #radiodsmc2-indexpage:checked ~ .navigation-auto .auto-btn2{
+  #radiodsmc_indexpage2:checked ~ .navigation-auto .auto-btn2{
     background: #007bff;
   }
-  #radiodsmc3-indexpage:checked ~ .navigation-auto .auto-btn3{
+  #radiodsmc_indexpage3:checked ~ .navigation-auto .auto-btn3{
     background: #007bff;
   }
-  #radiodsmc4-indexpage:checked ~ .navigation-auto .auto-btn4{
+  #radiodsmc_indexpage4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
-  #radiodsmc5-indexpage:checked ~ .navigation-auto .auto-btn5{
+  #radiodsmc_indexpage5:checked ~ .navigation-auto .auto-btn5{
     background: #007bff;
   }
 
