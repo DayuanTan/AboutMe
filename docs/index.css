@@ -16,8 +16,18 @@ h2 {
     font-style: italic;
     text-decoration: underline overline;
 }
+h2 span{
+    background-color: #e9ecef;
+}
 h4 {
     text-decoration: underline overline;
+}
+h4 span{
+    background-color: #e9ecef;
+}
+h5 a {
+    background-color: #e9ecef;
+    font-size: x-large;
 }
 
 .research_interests {
@@ -29,10 +39,17 @@ h4 {
 }
 
 table th,td{
-    padding: 3px 3px 3px 5px; 
+    padding: 10px 3px 10px 5px; 
     border: 1px solid black;
 }
+table th{
+    background-color: #e9ecef;
+}
 
+.a_link_largersize {
+  background-color: e9ecef;
+  font-size: x-large;
+}
 
 footer {
     width: 100%;
@@ -68,7 +85,7 @@ footer a {
 .mynav {
   background-color:#e9ecef;
   margin: 0 0 32;
-  font-weight: 700;
+  font-weight: 300;
   font-size: xx-large;
 }
 .mynav li {
@@ -357,6 +374,25 @@ footer a {
     background: #007bff;
   }
   #radiodsmc5:checked ~ .navigation-auto .auto-btn5{
+    background: #007bff;
+  }
+
+
+
+
+  #radiodsmc1-indexpage:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsmc2-indexpage:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsmc3-indexpage:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsmc4-indexpage:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+  #radiodsmc5-indexpage:checked ~ .navigation-auto .auto-btn5{
     background: #007bff;
   }
 
