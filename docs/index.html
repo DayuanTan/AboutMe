@@ -7,6 +7,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
   
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZKRRN0DSY"></script>
@@ -25,22 +28,25 @@
 
 <body>
 
-<div class="jumbotron text-center">
-  <h1><a href="https://dayuantan.github.io/AboutMe/">Dayuan Tan's Home Page</a></h1>
-  &nbsp
-  <a href="https://dayuantan.github.io/AboutMe/"><img class="header_icon_height" alt="Home page"  title="Home page" src="img/home.png"></a>
-  &nbsp
-  <a href="https://github.com/DayuanTan"><img class="header_icon_height" alt="GitHub"  title="GitHub" src="img/github-logo.png"></a>
-  &nbsp
-  <a href="https://www.researchgate.net/profile/Dayuan-Tan"><img class="header_rg_icon" alt="ResearchGate"  title="ResearchGate" src="img/rg.png"></a>
-  &nbsp
-  <a href="https://scholar.google.com/citations?hl=en&user=1_H0BuoAAAAJ&view_op=list_works&gmla=AJsN-F5Tx3_HukNh9DcmfoIxKQemoL-u9eJlFSoMtVXtejTXtxW9dyM4QyDTW0UQzpzoaffDqAhZM2uIpUEj8c54n0rP7sEKqA"><img class="header_icon_height" alt="GoogleScholar"  title="GoogleScholar" src="img/gs.png"></a>
-  &nbsp
-  <a href="https://gist.github.com/DayuanTan"><img class="header_icon_height" alt="GitHub-Gist"  title="GitHub-Gist" src="img/github-gist-logo.png"></a>
-  &nbsp
-  <a href="https://dayuannotes.gitbook.io/dayuannotes/"><img class="header_icon_height" alt="Gitbook"  title="Gitbook" src="img/gitbook.png"></a>
-</div>
-  
+<header-component></header-component> 
+<main>
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-center mynav">
+  <div class="container">
+          <ul class="navbar-nav w-100 justify-content-center">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="reseaches.html">Academic Researches</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Programming Projects</a>
+              </li>
+          </ul>
+  </div>
+</nav>  
+
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
@@ -611,13 +617,9 @@
   </div>
 </div>
 
+</main>
+<footer-component></footer-component>
 
-<footer>
-    <hr>
-    <p>Created by Dayuan Tan with love.<br>
-    Leave me a message by<a href="https://github.com/DayuanTan/AboutMe/issues/new"> posting an issue.</a></p>
-    <br>
-</footer>
 
 </body>
 </html>

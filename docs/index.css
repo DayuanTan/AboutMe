@@ -55,6 +55,40 @@ footer a {
 
 
 
+/* nav */
+
+.header_margin_bottom {
+  margin-bottom: 0;
+}
+.a_line_margin {
+  margin: 0.5;
+}
+
+
+.mynav {
+  background-color:#e9ecef;
+  margin: 0 0 32;
+  font-weight: 700;
+  font-size: xx-large;
+}
+.mynav li {
+  padding-left: 20;
+  padding-right: 20;
+}
+.mynav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0 0 0;
+  text-decoration: none;
+}  
+
+.a_hover_bottom_whiteline a:hover {
+  padding-bottom: 5px;
+  box-shadow: inset 0 -2px 0 0 #fff;
+}
+
+
 
 
 /* below are for img slider */
