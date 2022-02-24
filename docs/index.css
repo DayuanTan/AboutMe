@@ -30,6 +30,10 @@ h5 a {
     font-size: x-large;
 }
 
+.paper_name_homepage {
+    background-color: white;
+    font-size: medium;
+}
 .research_interests {
     font-style: italic;
 }

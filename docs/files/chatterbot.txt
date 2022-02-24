@@ -1,0 +1,8 @@
+@inproceedings{xie2019chatbot,
+  title={Chatbot application on cryptocurrency},
+  author={Xie, Qitao and Tan, Dayuan and Zhu, Ting and Zhang, Qingquan and Xiao, Sheng and Wang, Junyu and Li, Beibei and Sun, Lei and Yi, Ping},
+  booktitle={2019 IEEE Conference on Computational Intelligence for Financial Engineering \& Economics (CIFEr)},
+  pages={1--8},
+  year={2019},
+  organization={IEEE}
+}

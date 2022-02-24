@@ -1,0 +1,8 @@
+@incollection{younis2020dynamic,
+  title={Dynamic road management in the era of cav},
+  author={Younis, Mohamed and Lee, Sookyoung and Lalouani, Wassila and Tan, Dayuan and Gupte, Sanket},
+  booktitle={Connected and Autonomous Vehicles in Smart Cities},
+  pages={133--172},
+  year={2020},
+  publisher={CRC Press}
+}

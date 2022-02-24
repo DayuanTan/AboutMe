@@ -1,0 +1,8 @@
+@inproceedings{tan2021palm,
+  title={PALM: Platoons Based Adaptive Traffic Light Control System for Mixed Vehicular Traffic},
+  author={Tan, Dayuan and Younis, Mohamed and Lalouani, Wassila and Lee, Sookyoung},
+  booktitle={2021 IEEE SmartWorld, Ubiquitous Intelligence \& Computing, Advanced \& Trusted Computing, Scalable Computing \& Communications, Internet of People and Smart City Innovation (SmartWorld/SCALCOM/UIC/ATC/IOP/SCI)},
+  pages={178--185},
+  year={2021},
+  organization={IEEE}
+}
