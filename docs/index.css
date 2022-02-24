@@ -463,3 +463,10 @@ footer a {
     width: 60%;
     margin: auto;
   }
+
+  .paper_type {
+    font-style: italic;
+    margin-bottom: 0;
+    color: gray;
+    opacity: 0.7;
+  }
