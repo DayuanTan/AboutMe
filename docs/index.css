@@ -33,9 +33,20 @@ h5 a {
 .research_interests {
     font-style: italic;
 }
-
 .onlyoneimg{
-    width: 100%;
+    width: 60%;
+    margin: auto;
+}
+.onlyoneimg img{
+  width: 90%;
+  margin: auto;
+}
+.homepage_onlyoneimg{
+  width: 60%;
+  margin: auto;
+}
+.homepage_onlyoneimg img {
+  width: 80%;
 }
 
 table th,td{
@@ -110,26 +121,34 @@ footer a {
 
 /* below are for img slider */
 
+.slider_homepage {
+    width: 80%;
+    height: 450px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+  }
 .slider{
-    width: 100%;
+    width: 60%;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    margin: auto; /* content center */
   }
 .sliderwsn{
-    height: 930px;
+    height: 650px;
   }
 .sliderarchi{
-    height: 800px;
+    height: 500px;
   }
 .slider_advancedarchi{
-    height: 625px;
+    height: 600px;
   }
 .slider_lb{
-    height: 690px;
+    height: 500px;
   }
 .slidermc{
-    height: 750px;
+    height: 500px;
   }
 
 
@@ -157,26 +176,20 @@ footer a {
   
   .navigation-manual{
     position: absolute;
-    width: 800px;
-    margin-top: -40px;
+    width: 60%; /* 800px; */
+    margin-top: -5%;
     display: flex;
     justify-content: center;
   }
-  .navigation-manual-wsn{
-    margin-top: 300px;
-  }
-  .navigation-manual-archi{
-    margin-top: 160px;
-  }
-  .navigation-manual-advanced-archi{
-    margin-top: 80px;
-  }
-  .navigation-manual-ld{
-    margin-top: 90px;
-  }
-  .navigation-manual-mc{
-    margin-top: 80px;
-  }
+  .navigation-manual-homepage {
+    margin-top: -15%;
+  } 
+  .navigation-manual-wsn {
+    margin-top: 5%;
+  } 
+  .navigation-manual-advanced-archi {
+    margin-top: 3%;
+  } 
  
   
   .manual-btn{
@@ -301,24 +314,27 @@ footer a {
   .navigation-auto{
     position: absolute;
     display: flex;
-    width: 800px;
+    width: 60%; /* 800px; */
     justify-content: center;
-    margin-top: 460px;
+    margin-top: 50%;
+  }
+  .navigation-auto-homepage{
+    margin-top: 50.8%;
   }
   .navigation-auto-wsn{
-    margin-top: 800px;
+    margin-top: 48.9%;
   }
   .navigation-auto-archi{
-    margin-top: 660px;
+    margin-top: 38.9%;
   }
   .navigation-auto-advanced-archi{
-    margin-top: 580px;
+    margin-top: 46.9%;
   }
   .navigation-auto-ld{
-    margin-top: 590px;
+    margin-top: 38.9%;
   }
   .navigation-auto-mc{
-    margin-top: 580px;
+    margin-top: 38.9%;
   }
   
   
@@ -383,7 +399,7 @@ footer a {
   #radioadvancedarchi4:checked ~ .navigation-auto .auto-btn4{
     background: #007bff;
   }
-  #radioadvancedarchi5:checked ~ .navigation-auto .auto-btn4{
+  #radioadvancedarchi5:checked ~ .navigation-auto .auto-btn5{
     background: #007bff;
   }
 
@@ -438,3 +454,12 @@ footer a {
   }
 
   /* above are for img slider */
+
+
+
+
+
+  .projects_video{
+    width: 60%;
+    margin: auto;
+  }
