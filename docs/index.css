@@ -50,8 +50,20 @@ h5 a {
   margin: auto;
 }
 .homepage_onlyoneimg img {
-  width: 80%;
+  width: 100%;
 }
+
+.index-showcase {
+  font-style: italic;
+  font-size: x-large;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
 
 table th,td{
     padding: 10px 3px 10px 5px; 
@@ -59,6 +71,10 @@ table th,td{
 }
 table th{
     background-color: #e9ecef;
+}
+.td_techstack {
+    text-align: center;
+    width: 10%;
 }
 
 .a_link_largersize {
@@ -127,7 +143,7 @@ footer a {
 
 .slider_homepage {
     width: 60%;
-    height: 450px;
+    height: 250px;
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
@@ -186,7 +202,7 @@ footer a {
     justify-content: center;
   }
   .navigation-manual-homepage {
-    margin-top: -15%;
+    margin-top: -52.8%;
   } 
   .navigation-manual-wsn {
     margin-top: 5%;
@@ -323,7 +339,7 @@ footer a {
     margin-top: 50%;
   }
   .navigation-auto-homepage{
-    margin-top: 50.8%;
+    margin-top: 35%;
   }
   .navigation-auto-wsn{
     margin-top: 48.9%;

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" viewBox="272 143 631 595" width="631" height="595">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.11.5 
+    <dc:date>2022-08-19 03:00:27 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" stroke="none" fill="none" stroke-dasharray="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <path d="M 809.8116 193.2062 C 932.7297 258.81422 932.7297 365.18578 809.8116 430.7938 C 686.8942 496.4022 487.6058 496.4022 364.6884 430.7938 C 241.77033 365.18578 241.77033 258.81422 364.6884 193.2062 C 487.6058 127.59782 686.8942 127.59782 809.8116 193.2062" fill="white"/>
+        <path d="M 809.8116 193.2062 C 932.7297 258.81422 932.7297 365.18578 809.8116 430.7938 C 686.8942 496.4022 487.6058 496.4022 364.6884 430.7938 C 241.77033 365.18578 241.77033 258.81422 364.6884 193.2062 C 487.6058 127.59782 686.8942 127.59782 809.8116 193.2062" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(325.5 225.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">IoT</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 623.6923 368.99327 C 680.0213 423.46957 662.3179 472.10915 584.15075 477.63286 C 505.98387 483.15685 396.95387 443.4732 340.6253 388.99685 C 284.29637 334.52056 301.99973 285.88098 380.1669 280.35727 C 458.33377 274.83328 567.3638 314.51695 623.6923 368.99327" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_5">
+        <text transform="translate(316.5 316.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">ITS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 651.38356 392.7004 C 667.2992 461.3349 627.64786 494.60635 562.81976 467.01424 C 497.99174 439.4225 432.5364 361.41583 416.6211 292.78144 C 400.70544 224.1469 440.3568 190.87548 505.1849 218.4676 C 570.0129 246.05935 635.46825 324.066 651.38356 392.7004" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(433 225.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">VANET/IoV</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <path d="M 564.82084 411.7297 C 558.46074 473.45175 594.059 494.0044 644.3318 457.6354 C 694.6046 421.26665 740.5144 341.74856 746.8742 280.0267 C 753.23435 218.30463 717.6361 197.75196 667.3633 234.121 C 617.0905 270.48973 571.1807 350.0078 564.82084 411.7297" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_9">
+        <text transform="translate(676.0032 225.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Smart </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="3.568" y="33.448">Cities</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <path d="M 576.8999 398.5688 C 540.0087 447.93723 559.71484 482.0692 620.9148 474.80474 C 682.1145 467.5405 761.6326 421.63074 798.5235 372.2623 C 835.4146 322.89387 815.7085 288.76188 754.5086 296.02636 C 693.3089 303.29058 613.7908 349.20037 576.8999 398.5688" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_11">
+        <text transform="translate(757.988 307.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Smart </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="33.448">Home</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <path d="M 539.3364 397.8915 C 476.5857 440.9144 420.94667 537.28405 415.06307 613.1392 C 409.17915 688.9946 455.27876 715.6102 518.0295 672.5869 C 580.7802 629.564 636.4192 533.19433 642.3028 457.3392 C 648.1867 381.4838 602.0871 354.8682 539.3364 397.8915" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(449.82 667)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">AI</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <path d="M 582.8618 407.6408 C 530.7915 429.30093 466.7051 487.00456 439.7208 536.52555 C 412.73624 586.04664 433.0724 608.6322 485.14284 586.97184 C 537.2132 565.3117 601.29955 507.6081 628.28384 458.0871 C 655.2684 408.566 634.9323 385.98044 582.8618 407.6408" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_15">
+        <text transform="translate(441.5 573)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">ML</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <path d="M 591.4525 415.9076 C 560.1533 442.78254 528.5992 497.4358 520.9744 537.9792 C 513.34946 578.5227 532.5412 589.60304 563.84044 562.7279 C 595.1396 535.85295 626.6937 481.19966 634.3185 440.6563 C 641.94346 400.1128 622.7517 389.03244 591.4525 415.9076" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(537 552.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">RL</tspan>
+        </text>
+      </g>
+      <g id="Group_22">
+        <g id="Graphic_18">
+          <path d="M 646.4539 438.04636 C 693.9291 485.22066 746.291 575.9141 763.4075 640.61595 C 780.5243 705.318 755.914 719.5268 708.43875 672.3522 C 660.9636 625.1779 608.6017 534.48444 591.48515 469.7826 C 574.36834 405.08053 598.9787 390.87173 646.4539 438.04636" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_19">
+          <path d="M 632.62845 434.82563 C 667.8406 472.2064 708.3564 542.3817 723.123 591.56674 C 737.8897 640.7519 721.3154 650.3211 686.1032 612.9401 C 650.891 575.5594 610.37524 505.384 595.60865 456.199 C 580.8419 407.0138 597.4162 397.44463 632.62845 434.82563" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_20">
+          <text transform="translate(697.0781 641.10606) rotate(.9776643)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.224" y="15">Distributed </tspan>
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="14.52" y="33.448">System</tspan>
+          </text>
+        </g>
+        <g id="Graphic_21">
+          <text transform="translate(657.9825 577.47775) rotate(-1.097106)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Blockchain</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_23">
+        <circle cx="611.848" cy="441.848" r="16.8480269214511" fill="#ccc"/>
+        <circle cx="611.848" cy="441.848" r="16.8480269214511" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(603.3696 434.68)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x=".13840023" y="11">me</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
