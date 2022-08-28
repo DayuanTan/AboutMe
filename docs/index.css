@@ -194,9 +194,10 @@ footer a {
   
   /*css for manual slide navigation*/
   
+  /* decide not to show the manual dots
   .navigation-manual{
     position: absolute;
-    width: 60%; /* 800px; */
+    width: 60%; // 800px; 
     margin-top: -5%;
     display: flex;
     justify-content: center;
@@ -211,6 +212,7 @@ footer a {
     margin-top: 3%;
   } 
  
+  
   
   .manual-btn{
     border: 2px solid #007bff;
@@ -227,7 +229,8 @@ footer a {
   .manual-btn:hover{
     background: #007bff;
   }
-  
+  */
+
   #radio-aos1:checked ~ .first{
     margin-left: 0;
   }
