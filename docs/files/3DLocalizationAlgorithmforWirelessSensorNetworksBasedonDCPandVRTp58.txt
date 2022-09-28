@@ -1,0 +1,8 @@
+@inproceedings{song20153d,
+  title={3D localization algorithm for wireless sensor networks based on DCP and VRT},
+  author={Song, Guozhi and Tam, Dayuan and Liao, Dongyang and Lee, Qianshen and Lee, Rundong},
+  booktitle={13th National Conference on Embedded System Technology},
+  pages={58--67},
+  year={2015},
+  organization={Springer}
+}

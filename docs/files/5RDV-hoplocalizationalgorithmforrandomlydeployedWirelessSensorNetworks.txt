@@ -1,0 +1,8 @@
+@inproceedings{song2014rdv,
+  title={RDV-Hop localization algorithm for randomly deployed wireless sensor networks},
+  author={Song, Guozhi and Tam, Dayuan and Xue, Yongjiang and Liu, Botao},
+  booktitle={International Conference on Software Intelligence Technologies and Applications \& International Conference on Frontiers of Internet of Things 2014},
+  pages={190--195},
+  year={2014},
+  organization={IET}
+}
