@@ -21,6 +21,8 @@ class Header extends HTMLElement {
                     <a href="https://gist.github.com/DayuanTan"><img class="header_icon_height" alt="GitHub-Gist"  title="GitHub-Gist" src="img/github-gist-logo.png"></a>
                     &nbsp
                     <a href="https://dayuannotes.gitbook.io/dayuannotes/"><img class="header_icon_height" alt="Gitbook"  title="Gitbook" src="img/gitbook.png"></a>
+                    &nbsp
+                    <a href="https://medium.com/@dayuantan"><img class="header_icon_height" alt="Medium"  title="Medium" src="img/medium-logo.png"></a>
                 </div>
             </div>
         </header>
