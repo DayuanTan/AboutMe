@@ -1,0 +1,8 @@
+@inproceedings{song2015improved,
+  title={An Improved WC-RDV Localization Algorithm for WSNs},
+  author={Song, Guozhi and Tam, Dayuan},
+  booktitle={2015 IEEE 12th Intl Conf on Ubiquitous Intelligence and Computing and 2015 IEEE 12th Intl Conf on Autonomic and Trusted Computing and 2015 IEEE 15th Intl Conf on Scalable Computing and Communications and Its Associated Workshops (UIC-ATC-ScalCom)},
+  pages={340--343},
+  year={2015},
+  organization={IEEE}
+}
