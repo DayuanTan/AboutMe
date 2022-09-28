@@ -1,0 +1,36 @@
+.articletitle {
+    font-weight: 900;
+    font-style: bold;
+    font-size: 36px;
+}
+
+.articleimg {
+    width: 98%;
+}
+
+p {
+    font-size: 24px;
+}
+
+.articleheader1 {
+    font-size: 30px;
+}
+
+ul li {
+    font-size: 24px;
+}
+
+.reference {
+    font-style: italic;
+    margin-bottom: 0;
+    color: gray;
+    opacity: 0.7;
+    font-size: 16px;
+}
+.reference p{
+    font-size: 16px;
+}
+.reference p a{
+    color: gray;
+    text-decoration: underline;
+}

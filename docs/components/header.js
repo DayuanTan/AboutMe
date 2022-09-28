@@ -26,6 +26,24 @@ class Header extends HTMLElement {
         </header>
 
         <hr class="a_line_margin" size="1" >  
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light justify-content-center mynav">
+          <div class="container">
+                  <ul class="navbar-nav w-100 justify-content-center">
+                      <li class="nav-item">
+                          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="researches.html">Academic Researches</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Programming Projects</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Articles & Notes</a>
+                      </li>
+                  </ul>
+          </div>
+        </nav>  
 
       `;
     }
