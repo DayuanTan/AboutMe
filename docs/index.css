@@ -493,3 +493,10 @@ footer a {
     color: gray;
     opacity: 0.7;
   }
+
+.articletitleinnotepage p a {
+  font-size: 26px;
+}
+.articleimg {
+  width: 60%;
+}
