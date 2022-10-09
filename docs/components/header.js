@@ -43,6 +43,9 @@ class Header extends HTMLElement {
                       <li class="nav-item">
                         <a class="nav-link" href="notes.html">Articles & Notes</a>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services & Certificates</a>
+                      </li>
                   </ul>
           </div>
         </nav>  
