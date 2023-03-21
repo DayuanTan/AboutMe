@@ -1,0 +1,8 @@
+@article{tan2023novel,
+  title={A novel pedestrian road crossing simulator for dynamic traffic light scheduling systems},
+  author={Tan, Dayuan and Younis, Mohamed and Lalouani, Wassila and Fan, Shuyao and Song, Guozhi},
+  journal={Journal of Intelligent Transportation Systems},
+  pages={1--15},
+  year={2023},
+  publisher={Taylor \& Francis}
+}
