@@ -1,0 +1,130 @@
+<head>
+  <title>Dayuan Tan's Home Page</title>
+  <meta charset="utf-8">
+  <meta name="google-site-verification" content="JNhDbMaka9oOIattEtQC5-1CL_uOnJ_KoJ7wT67A9NA" />
+  <meta name="Dayuan Tan" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="icon" href="img/d.ico" >
+  
+  <script src="components/header.js" type="text/javascript" defer></script>
+  <script src="components/footer.js" type="text/javascript" defer></script>
+  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WZKRRN0DSY"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WZKRRN0DSY');
+  </script>
+
+  <link rel="stylesheet" href="index.css">
+  <script src="./components/open_links_in_new_tab.js"></script>
+
+</head>
+
+
+<body>
+
+<header-component></header-component> 
+<main>
+
+
+<div class="container">
+  <div class="row">
+
+
+
+
+    <div class="col-sm-12"> 
+      
+
+
+
+      <a id="machinelearning">
+        <h1 style="padding-top: 40px; margin-top: -40px;"></h1>
+      </a>
+      <br/>
+      <br/>
+      
+      <h5><a  href="https://github.com/DayuanTan/xxx">Machine Learning</a></h5>
+      <p><strong>Key Words:</strong> Machine Learning, PyTorch</p>
+      <p><strong>Tech Stack:</strong> Python, PyTorch </p>
+      <p>Machine Learning Examples:</p>
+      <ol>
+        <li>Linear Regression Example 
+          <ul>
+            <li><strong>Key Words: Linear Regression, Mini-batch Stochastic Gradient Descent (SGD), Mean Square Error (MSE)
+            </strong>
+            </li>
+            <li>A complete process: Read Dataset -> Define Model -> Initialize Parameter -> Define Loss -> Optimization Algorithm -> Train. </li>
+            <li>数据读取 -> 模型定义 -> 模型参数初始化 -> 损失函数 -> 优化算法 -> 训练模块.</li>
+            <li>Mini-batch Stochastic Gradient Descent (SGD) is implemented.
+            <ul>
+              <li>Implement from scratch. <a href="./ml/Dayuan_Linear_Regression_Scratch.html">HTML</a> (Online View), <a href="./ml/Dayuan_Linear_Regression_Scratch.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan_Linear_Regression_Concise.html">HTML</a>, <a href="./ml/Dayuan_Linear_Regression_Concise.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+            </ul>
+          
+          </ul>
+        <li>Softmax Regression (Actual Classification) Example  
+          <ul>
+            <li><strong>Key Words: Softmax Regression (Classification)</strong>, L1 Loss, L2 Loss (MSE), Huber's Robust Loss, <strong>Cross-Entropy Loss</strong>, MNIST, ImageNet
+            
+            </li>
+            <ul>
+              <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+            </ul>
+          
+          </ul>
+        </li>
+        <li>Perceptrons & Multilayer Perceptrons Example  
+          <ul>
+            <li><strong>Key Words: Perceptrons (Binary Classification), Multilayer Perceptrons (Multiple Classification)</strong>, Activation Function (Introduce non-linearity): Sigmoid, Tanh, RelU. Softmax (as output layer of a NN for multi-class classification).
+            
+            </li>
+            <ul>
+              <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).</li>
+              </li>  
+            </ul>
+          为什么用MLP没用SVM。因为MLP如果效果不好以后可转DNN， transformcer等很方便。但是用SVM要改很多。SVM能调的东西也不多。SVM也不适合大百万级数据。
+          </ul>
+        </li>
+      </ol>
+     
+
+
+
+
+
+      
+      <br/>
+    </div>
+
+
+
+
+
+
+
+  </div>
+</div>
+
+</main>
+<footer-component></footer-component>
+
+
+</body>
+</html>
+
