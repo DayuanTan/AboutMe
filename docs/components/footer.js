@@ -7,8 +7,8 @@ class Footer extends HTMLElement {
       this.innerHTML = `
         <footer>
             <hr>
-            <p>Created by <a href="https://dayuantan.github.io/AboutMe/">Dayuan Tan</a> with love.<br>
-            Leave me a message by<a href="https://github.com/DayuanTan/AboutMe/issues/new"> posting an issue.</a></p>
+            <p>Created by <a  class="no-new-tab" href="https://dayuantan.github.io/AboutMe/">Dayuan Tan</a> with love.<br>
+            Leave me a message by<a  class="no-new-tab" href="https://github.com/DayuanTan/AboutMe/issues/new"> posting an issue.</a></p>
             <br>
         </footer>
       `;

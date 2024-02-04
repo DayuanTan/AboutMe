@@ -7,10 +7,10 @@ class Header extends HTMLElement {
       this.innerHTML = `
         <header>
             <div class="jumbotron text-center header_margin_bottom">
-                <h1><a href="https://dayuantan.github.io/AboutMe/">Dayuan Tan's Home Page</a></h1>
+                <h1><a class="no-new-tab" href="https://dayuantan.github.io/AboutMe/">Dayuan Tan's Home Page</a></h1>
                 
                 <div class="a_hover_bottom_whiteline">
-                    <a href="https://dayuantan.github.io/AboutMe/"><img class="header_icon_height" alt="Home page"  title="Home page" src="img/home.png"></a>
+                    <a  class="no-new-tab" href="https://dayuantan.github.io/AboutMe/"><img class="header_icon_height" alt="Home page"  title="Home page" src="img/home.png"></a>
                     &nbsp
                     <a href="https://github.com/DayuanTan"><img class="header_icon_height" alt="GitHub"  title="GitHub" src="img/github-logo.png"></a>
                     &nbsp
@@ -32,19 +32,19 @@ class Header extends HTMLElement {
           <div class="container">
                   <ul class="navbar-nav w-100 justify-content-center">
                       <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link no-new-tab" aria-current="page" href="index.html">Home</a>
                       </li>
                       <li class="nav-item">
-                          <a class="nav-link" href="researches.html">Academic Researches</a>
+                          <a class="nav-link no-new-tab" href="researches.html">Academic Researches</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Programming Projects</a>
+                        <a class="nav-link no-new-tab" href="projects.html">Programming Projects</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="notes.html">Articles & Notes</a>
+                        <a class="nav-link no-new-tab" href="notes.html">Articles & Notes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services & Certificates</a>
+                        <a class="nav-link no-new-tab" href="services.html">Services & Certificates</a>
                       </li>
                   </ul>
           </div>
