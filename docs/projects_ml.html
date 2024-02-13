@@ -31,7 +31,7 @@
 
 <body>
 
-<header-component></header-component> 
+<header-component></header-component>  
 <main>
 
 
@@ -55,49 +55,76 @@
       <h5><a  href="https://github.com/DayuanTan/xxx">Machine Learning</a></h5>
       <p><strong>Key Words:</strong> Machine Learning, PyTorch</p>
       <p><strong>Tech Stack:</strong> Python, PyTorch </p>
+      
       <p>Machine Learning Examples:</p>
       <ol>
-        <li>Linear Regression Example 
+        <li><strong>Linear Regression Example</strong> 
           <ul>
-            <li><strong>Key Words: Linear Regression, Mini-batch Stochastic Gradient Descent (SGD), Mean Square Error (MSE)
-            </strong>
+            <li><strong>Key Words: </strong>
+              <ul>
+                <li><strong>Linear Regression</strong></li> 
+                <li><strong>Mini-batch Stochastic Gradient Descent (SGD)</strong> - Optimization Algorithm </li> 
+                <li><strong>Mean Square Error (MSE)</strong> - Loss Function </li> 
+              </ul>            
             </li>
-            <li>A complete process: Read Dataset -> Define Model -> Initialize Parameter -> Define Loss -> Optimization Algorithm -> Train. </li>
-            <li>数据读取 -> 模型定义 -> 模型参数初始化 -> 损失函数 -> 优化算法 -> 训练模块.</li>
-            <li>Mini-batch Stochastic Gradient Descent (SGD) is implemented.
-            <ul>
-              <li>Implement from scratch. <a href="./ml/Dayuan_Linear_Regression_Scratch.html">HTML</a> (Online View), <a href="./ml/Dayuan_Linear_Regression_Scratch.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan_Linear_Regression_Concise.html">HTML</a>, <a href="./ml/Dayuan_Linear_Regression_Concise.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-            </ul>
-          
-          </ul>
-        <li>Softmax Regression (Actual Classification) Example  
-          <ul>
-            <li><strong>Key Words: Softmax Regression (Classification)</strong>, L1 Loss, L2 Loss (MSE), Huber's Robust Loss, <strong>Cross-Entropy Loss</strong>, MNIST, ImageNet
             
-            </li>
-            <ul>
-              <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-            </ul>
-          
+            <li>A complete process: 
+              <ul>
+                <li>Read Dataset -> Define Model -> Initialize Parameter -> Define Loss -> Optimization Algorithm -> Train. 
+                </li> 
+                <li>数据读取 -> 模型定义 -> 模型参数初始化 -> 损失函数 -> 优化算法 -> 训练模块.
+                </li>
+              </ul>
+            </li>    
+            
+            <li>Mini-batch Stochastic Gradient Descent (SGD) is implemented.
+              <ul>
+                <li>Implement from scratch. <a href="./ml/Dayuan_Linear_Regression_Scratch.html">HTML</a> (Online View), <a href="./ml/Dayuan_Linear_Regression_Scratch.ipynb">Jupyter Notebook</a> (Download).
+                </li>  
+                <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan_Linear_Regression_Concise.html">HTML</a>, <a href="./ml/Dayuan_Linear_Regression_Concise.ipynb">Jupyter Notebook</a> (Download).
+                </li>  
+              </ul>
+            </li>          
           </ul>
         </li>
-        <li>Perceptrons & Multilayer Perceptrons Example  
+
+        <li><strong>Softmax Regression (Actual Classification) Example</strong>  
           <ul>
-            <li><strong>Key Words: Perceptrons (Binary Classification), Multilayer Perceptrons (Multiple Classification)</strong>, Activation Function (Introduce non-linearity): Sigmoid, Tanh, RelU. Softmax (as output layer of a NN for multi-class classification).
-            
+            <li><strong>Key Words: </strong>
+              <ul>
+                <li><strong>Softmax Regression (Classification), </strong> </li>
+                <li>L1 Loss, L2 Loss (MSE), Huber's Robust Loss, <strong>Cross-Entropy Loss</strong>, </li>
+                <li>MNIST, ImageNet</li>
+              </ul>
             </li>
-            <ul>
-              <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-              <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).</li>
-              </li>  
-            </ul>
+            
+            <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+            <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+
+                
+          </ul>
+        </li>
+
+        <li><strong>Perceptrons & Multilayer Perceptrons Example</strong>  
+          <ul>
+            <li><strong>Key Words: </strong>
+              <ul>
+                <li><strong>Perceptrons</strong>  (Binary Classification)</li>
+                <li><strong>Multilayer Perceptrons</strong>  (Multiple Classification)</li>
+                <li><strong>Activation Function </strong>(Introduce non-linearity): </li>
+                <ul>
+                  <li>Sigmoid, Tanh, RelU. Softmax (as output layer of a NN for multi-class classification).</li>
+                </ul>
+              </ul>
+            </li>
+            
+            <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+            <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+            
           为什么用MLP没用SVM。因为MLP如果效果不好以后可转DNN， transformcer等很方便。但是用SVM要改很多。SVM能调的东西也不多。SVM也不适合大百万级数据。
           </ul>
         </li>
