@@ -103,6 +103,25 @@
             <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).
             </li>  
 
+            <li>Notes:
+              <ul>
+                
+                <li>Softmax function can transform unnormalized predictions into non-negative numbers that sum to 1, while keeping the model differentiable.
+                </li>
+                <ul> 
+                  <li>softmax函数能够将未规范化的预测变换为非负数并且总和为1，同时让模型保持可导的性质。                
+                  </li>
+                </ul>
+                
+                <li>Although softmax is a non-linear function, the output of softmax regression is still determined by an affine transformation of input features. Therefore, softmax regression is a linear model.
+                </li>
+                <ul>
+                  <li>尽管softmax是一个非线性函数，但softmax回归的输出仍然由输入特征的仿射变换决定。 因此，softmax回归是一个线性模型（linear model）.                  
+                  </li>
+                </ul>
+              </ul>
+            </li>
+
                 
           </ul>
         </li>
@@ -115,7 +134,26 @@
                 <li><strong>Multilayer Perceptrons</strong>  (Multiple Classification)</li>
                 <li><strong>Activation Function </strong>(Introduce non-linearity): </li>
                 <ul>
-                  <li>Sigmoid, Tanh, RelU. Softmax (as output layer of a NN for multi-class classification).</li>
+                  <li>Sigmoid, Tanh, RelU. Softmax (as output layer of a NN for multi-class classification).                    
+                  </li>
+                  <a href="img_ml/activation-sigmoid.svg" target="_blank">
+                    <img src="img_ml/activation-sigmoid.svg" title="Activation Function Sigmoid" alt="Activation Function Sigmoid" style="width:100px">
+                  </a>
+                  <a href="img_ml/activation-sigmoid-gradient.svg" target="_blank">
+                    <img src="img_ml/activation-sigmoid-gradient.svg" title="Activation Function Sigmoid Gradient" alt="Activation Function Sigmoid Gradient" style="width:100px">
+                  </a>
+                  <a href="img_ml/activation-tanh.svg" target="_blank">
+                    <img src="img_ml/activation-tanh.svg" title="Activation Function tanh" alt="Activation Function tanh" style="width:100px">
+                  </a>
+                  <a href="img_ml/activation-tanh-gradient.svg" target="_blank">
+                    <img src="img_ml/activation-tanh-gradient.svg" title="Activation Function tanh Gradient" alt="Activation Function tanh Gradient" style="width:100px">
+                  </a>
+                  <a href="img_ml/activation-relu.svg" target="_blank">
+                    <img src="img_ml/activation-relu.svg" title="Activation Function Relu" alt="Activation Function Relu" style="width:100px">
+                  </a>
+                  <a href="img_ml/activation-relu-gradient.svg" target="_blank">
+                    <img src="img_ml/activation-relu-gradient.svg" title="Activation Function Relu Gradient" alt="Activation Function Relu Gradient" style="width:100px">
+                  </a>
                 </ul>
               </ul>
             </li>
@@ -124,10 +162,66 @@
             </li>  
             <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).
             </li>  
-            
-          为什么用MLP没用SVM。因为MLP如果效果不好以后可转DNN， transformcer等很方便。但是用SVM要改很多。SVM能调的东西也不多。SVM也不适合大百万级数据。
+
+            <li>Notes:
+              <ul>
+                <li>Why is MLP used instead of SVM? Because if the performance of MLP is not good, it can be easily transformed into DNN, Transformer, etc. However, using SVM would require many changes. There are also not many aspects of SVM that can be adjusted. Additionally, SVM is not suitable for large-scale data in the millions.
+                </li>
+                <ul>
+                  <li>为什么用MLP没用SVM。因为MLP如果效果不好以后可转DNN、transformcer等很方便。但是用SVM要改很多。SVM能调的东西也不多。SVM也不适合大百万级数据。
+                  </li>
+                </ul>
+              </ul>
+            </li>
+
           </ul>
         </li>
+
+
+
+
+        <li><strong>Transformer Example</strong>  
+          <ul>
+            <li><strong>Key Words: </strong>
+              <ul>
+                <li><strong>Sxxx </strong> </li>
+                <li>L1 Loss, L2 Loss (MSE), Huber's Robust Loss, <strong>Cross-Entropy Loss</strong>, </li>
+                <li>MNIST, ImageNet</li>
+              </ul>
+            </li>
+            
+            <li>Implement from scratch. <a href="./ml/Dayuan-softmax-regression-scratch.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-scratch.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+            <li>Concise Implementation - Use PyTorch. <a href="./ml/Dayuan-softmax-regression-concise.html">HTML</a>, <a href="./ml/Dayuan-softmax-regression-concise.ipynb">Jupyter Notebook</a> (Download).
+            </li>  
+
+            <li>Notes:
+              <ul>
+                
+                <li>Softmax function can transform unnormalized predictions into non-negative numbers that sum to 1, while keeping the model differentiable.
+                </li>
+                <ul> 
+                  <li>softmax函数能够将未规范化的预测变换为非负数并且总和为1，同时让模型保持可导的性质。                
+                  </li>
+                </ul>
+                
+                <li>Although softmax is a non-linear function, the output of softmax regression is still determined by an affine transformation of input features. Therefore, softmax regression is a linear model.
+                </li>
+                <ul>
+                  <li>尽管softmax是一个非线性函数，但softmax回归的输出仍然由输入特征的仿射变换决定。 因此，softmax回归是一个线性模型（linear model）.                  
+                  </li>
+                </ul>
+              </ul>
+            </li>
+
+                
+          </ul>
+        </li>
+
+
+
+
+
       </ol>
      
 
