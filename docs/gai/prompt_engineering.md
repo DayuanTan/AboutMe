@@ -1,7 +1,7 @@
 # Prompting Principles
 
 - [Prompting Principles](#prompting-principles)
-- [Andrew Ng \& Isa Fulford - ChatGPT Prompt Engineering for Developers](#andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers)
+- [1 Andrew Ng \& Isa Fulford - ChatGPT Prompt Engineering for Developers](#1-andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers)
   - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
   - [Principle 2: Give the model time to “think”](#principle-2-give-the-model-time-to-think)
     - [Notes](#notes)
@@ -10,7 +10,7 @@
   - [Capabilites](#capabilites)
   - [Chatbot](#chatbot)
     - [Notes](#notes-2)
-- [Andrew Ng \& Amit Sangani - Prompt Engineering with Llama 2\&3](#andrew-ng--amit-sangani---prompt-engineering-with-llama-23)
+- [2 Andrew Ng \& Amit Sangani - Prompt Engineering with Llama 2\&3](#2-andrew-ng--amit-sangani---prompt-engineering-with-llama-23)
   - [Overview Llama Models](#overview-llama-models)
   - [Basic](#basic)
   - [Multi-turn Conversations](#multi-turn-conversations)
@@ -18,7 +18,7 @@
   - [Llama guard](#llama-guard)
 
 
-# Andrew Ng & Isa Fulford - ChatGPT Prompt Engineering for Developers  
+# 1 Andrew Ng & Isa Fulford - ChatGPT Prompt Engineering for Developers  
 https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction 
 
 ## Principle 1: Write clear and specific instructions
@@ -43,7 +43,8 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 ## Iterative prompt development
  
 ### Notes
-- [](./) 
+- [3-iterative-prompt-development.html](./andrew_ng_prompts/l3-iterative-prompt-development.html)
+- [3-iterative-prompt-development.ipynb](./andrew_ng_prompts/l3-iterative-prompt-development.ipynb) 
 
 ## Capabilites
 - Summarizing
@@ -66,11 +67,14 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 
 ## Chatbot
 ### Notes
-- [](./) 
+- [8-chatbot.html](./andrew_ng_prompts/l8-chatbot.html)
+- [8-chatbot.ipynb](./andrew_ng_prompts/l8-chatbot.ipynb) 
 
 
 
-# Andrew Ng & Amit Sangani - Prompt Engineering with Llama 2&3 
+# 2 Andrew Ng & Amit Sangani - Prompt Engineering with Llama 2&3 
+
+https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/introduction 
 
 ## Overview Llama Models
 
@@ -78,6 +82,8 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 ![](./llama_prompts/codellamamodels.png)
 
 ## Basic
+- [2_getting_started.html](./llama_prompts/L2_getting_started.html)
+- [2_getting_started.ipynb](./llama_prompts/L2_getting_started.ipynb)
  
 ## Multi-turn Conversations
 
@@ -87,6 +93,9 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 from utils import llama
 from utils import llama_chat
 ```
+ 
+- [3_multi_turn_conversations.html](./llama_prompts/L3_multi_turn_conversations.html)
+- [3_multi_turn_conversations.ipynb](./llama_prompts/L3_multi_turn_conversations.ipynb)
 
 ## Prompt Engineering Techniques
 - In-Context Learning
@@ -100,9 +109,22 @@ Explain each intermediate step.
 Only when you are done with all your steps,
 provide the answer based on your intermediate steps."
 
+- [4_prompt_engineering_techniques.html](./llama_prompts/L4_prompt_engineering_techniques.html)
+- [4_prompt_engineering_techniques.ipynb](./llama_prompts/L4_prompt_engineering_techniques.ipynb)
+- [5_comparing_llama_models.html](./llama_prompts/L5_comparing_llama_models.html)
+- [5_comparing_llama_models.ipynb](./llama_prompts/L5_comparing_llama_models.ipynb)
+- [6_code_llama.html](./llama_prompts/L6_code_llama.html)
+- [6_code_llama.ipynb](./llama_prompts/L6_code_llama.ipynb)
+
 ## Llama guard
 
 ![](./llama_prompts/L7_guard.png)
 ![](./llama_prompts/L7_guard2.png)
 ![](./llama_prompts/L7_guard3.png)
 ![](./llama_prompts/L7_guard4.png)
+
+- [7_llama_guard.html](./llama_prompts/L7_llama_guard.html)
+- [7_llama_guard.ipynb](./llama_prompts/L7_llama_guard.ipynb)
+- [8_walkthrough_helper_function.html](./llama_prompts/L8_walkthrough_helper_function.html)
+- [8_walkthrough_helper_function.ipynb](./llama_prompts/L8_walkthrough_helper_function.ipynb)
+
