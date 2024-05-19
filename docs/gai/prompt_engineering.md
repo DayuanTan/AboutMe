@@ -78,8 +78,11 @@ https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/i
 
 ## Overview Llama Models
 
-![](./llama_prompts/llama2models.png)
-![](./llama_prompts/codellamamodels.png)
+<!-- ![](./llama_prompts/llama2models.png)
+![](./llama_prompts/codellamamodels.png) -->
+
+<p><img style="width: 250px;" src="./llama_prompts/llama2models.png" alt="">
+<img style="width: 250px;" src="./llama_prompts/codellamamodels.png" alt=""></p>
 
 ## Basic
 - [2_getting_started.html](./llama_prompts/L2_getting_started.html)
@@ -87,8 +90,12 @@ https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/i
  
 ## Multi-turn Conversations
 
-![](./llama_prompts/L3-1.png)
-![](./llama_prompts/L3-2.png)
+<!-- ![](./llama_prompts/L3-1.png)
+![](./llama_prompts/L3-2.png) -->
+
+<p><img style="width: 250px;" src="./llama_prompts/L3-1.png" alt="">
+<img style="width: 250px;" src="./llama_prompts/L3-2.png" alt=""></p>
+
 ```
 from utils import llama
 from utils import llama_chat
@@ -118,10 +125,17 @@ provide the answer based on your intermediate steps."
 
 ## Llama guard
 
-![](./llama_prompts/L7_guard.png)
+<!-- ![](./llama_prompts/L7_guard.png)
 ![](./llama_prompts/L7_guard2.png)
 ![](./llama_prompts/L7_guard3.png)
-![](./llama_prompts/L7_guard4.png)
+![](./llama_prompts/L7_guard4.png) -->
+
+<p>
+<img style="width: 100px;" src="./llama_prompts/L7_guard.png" alt="">
+<img style="width: 200px;" src="./llama_prompts/L7_guard2.png" alt="">
+<img style="width: 200px;" src="./llama_prompts/L7_guard3.png" alt="">
+<img style="width: 200px;" src="./llama_prompts/L7_guard4.png" alt="">
+</p>
 
 - [7_llama_guard.html](./llama_prompts/L7_llama_guard.html)
 - [7_llama_guard.ipynb](./llama_prompts/L7_llama_guard.ipynb)
