@@ -18,16 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: DaYuan Tan's Blogs
+# email: dr.dayuantan@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+  Dr. Dayuan Tan's Home Page. I'm a researcher, a computer scientist, and a full stack software engineer. My research focuses on using Artificial Intellgience/Machine Learning/Reinforcement Learning, Distributed Systems/Blockchain, Deterministic Systems and other technologies to solve problems in Smart Cites, Intelligent Transportation Systems, and Smart Home. 
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dr_dayuan_tan
+github_username:  dayuantan
+
+# dayuan added the below 3 lines
+domain: dayuantan.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://dayuantan.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+baseurl: /myblog/      # place folder name if the site is served in a subfolder
+
 
 # Build settings
 theme: minima

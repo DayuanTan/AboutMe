@@ -1,3 +1,5 @@
+# 最后没用上。我发现gist也支持图片了，那么用gist记笔记挺好的。不需要再搞个jekyll来支持markdown。
+
 
 # Install
 
@@ -47,3 +49,7 @@ http://127.0.0.1:4000/
 http://127.0.0.1:4000/jekyll/update/2024/05/19/welcome-to-jekyll.html
 
 http://127.0.0.1:4000/about/
+
+# Config Jeykll for Github Pages
+
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll 配置了Gemfile文件
