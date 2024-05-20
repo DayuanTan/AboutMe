@@ -1,6 +1,10 @@
 # Prompting Principles
 
 - [Prompting Principles](#prompting-principles)
+- [0 TL;DR - Too Long; Don't Read.](#0-tldr---too-long-dont-read)
+    - [COSTAR Framework](#costar-framework)
+    - [Principles](#principles)
+      - [Reference:](#reference)
 - [1 Andrew Ng \& Isa Fulford - ChatGPT Prompt Engineering for Developers](#1-andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers)
   - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
   - [Principle 2: Give the model time to “think”](#principle-2-give-the-model-time-to-think)
@@ -16,6 +20,45 @@
   - [Multi-turn Conversations](#multi-turn-conversations)
   - [Prompt Engineering Techniques](#prompt-engineering-techniques)
   - [Llama guard](#llama-guard)
+- [3 Microsoft](#3-microsoft)
+- [4 Google](#4-google)
+- [5 Other](#5-other)
+
+# 0 TL;DR - Too Long; Don't Read.
+
+Take away: COSTAR framwork and principles.
+
+### COSTAR Framework
+
+- C - Context
+  - Providing background information helps the LLM understand the specific scenario.
+  - Multi shots prompting (multiple examples)
+- O - Objective
+  - Clearly defining the task directs the LLM’s focus.
+  - Use CoT (Chain of Thoughts)
+    - "Let's think step by step."
+- S - Style
+  - Specifying the desired writing style aligns the LLM response.
+- T - Tone
+  - Set the attitude and tone of the response. Indicates the emotional character or attitude of the response, shaping how the message is emotionally conveyed.
+- A - Audience
+  - Identify who the response is for. Defines the intended audience or reader of the content, influencing the language, complexity, and approach of the response.
+- R - Response
+  - Provide the response format and style, how the response should be structured.
+
+### Principles
+- Multiple Shots Prompting
+- Chain of Thoughts (CoT)
+  - "Let's think step by step."
+  - "Think step by step. Explain each intermediate step. Only when you are done with all your steps, provide the answer based on your intermediate steps."
+- Iterate
+
+
+#### Reference: 
+- Best Prompt Techniques for Best LLM Responses (COSTAR)
+  - https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca
+- Mastering Prompt Engineering: A Guide to the CO-STAR and TIDD-EC Frameworks
+  - https://vivasai01.medium.com/mastering-prompt-engineering-a-guide-to-the-co-star-and-tidd-ec-frameworks-3334588cb908
 
 
 # 1 Andrew Ng & Isa Fulford - ChatGPT Prompt Engineering for Developers  
@@ -112,9 +155,9 @@ from utils import llama_chat
 - Role Prompting
 - Chain-of-thought Prompting
 - - "Think step by step.
-Explain each intermediate step.
-Only when you are done with all your steps,
-provide the answer based on your intermediate steps."
+  Explain each intermediate step.
+  Only when you are done with all your steps,
+  provide the answer based on your intermediate steps."
 
 - [4_prompt_engineering_techniques.html](./llama_prompts/L4_prompt_engineering_techniques.html)
 - [4_prompt_engineering_techniques.ipynb](./llama_prompts/L4_prompt_engineering_techniques.ipynb)
@@ -142,3 +185,52 @@ provide the answer based on your intermediate steps."
 - [8_walkthrough_helper_function.html](./llama_prompts/L8_walkthrough_helper_function.html)
 - [8_walkthrough_helper_function.ipynb](./llama_prompts/L8_walkthrough_helper_function.ipynb)
 
+# 3 Microsoft
+
+Principles:
+- clear instructions
+- Consider delineating key components of the prompt or desired completion format 
+- Context
+- Zero-shot learning (ZSL) and then few-shot learning (FSL) 
+- Try rearranging your prompt
+- Optimize few-shot selection
+- Instruct the model how to reason
+- Handle ambiguous context 
+
+https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering
+
+https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineer-recommend
+
+# 4 Google
+
+https://developers.google.com/machine-learning/resources/prompt-eng
+
+Prompting Best Practices
+
+- Clearly communicate what content or information is most important.
+- Structure the prompt: 
+  - role, 
+  - give context/input data, 
+  - then provide the instruction.
+- Multi shots
+  - Use specific, varied examples to help the model narrow its focus and generate more accurate results.
+- Use constraints to limit the scope of the model's output. 
+- CoT Chain-of-thought
+  - Break down complex tasks into a sequence of simpler prompts.
+- Instruct the model to evaluate or check its own responses before producing them. 
+
+
+
+# 5 Other
+
+- Nvidia
+  - Zero-shot prompts
+  - Few-shot prompts
+  - Chain-of-thought prompts
+  - https://developer.nvidia.com/blog/an-introduction-to-large-language-models-prompt-engineering-and-p-tuning/
+
+- Explained Methodologies and frameworks in Prompt Engineering
+  - https://medium.com/@jelkhoury880/some-methodologies-in-prompt-engineering-fa1a0e1a9edb
+
+- Oracle
+  - https://blogs.oracle.com/ai-and-datascience/post/beginners-guide-engineering-prompts-llm
