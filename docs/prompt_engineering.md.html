@@ -30,6 +30,10 @@
     p img {
       width: 300px;
     }
+
+    h3 {
+      text-decoration: underline overline;
+    }
   </style>
 </head>
 
@@ -55,34 +59,107 @@
       <br>
       
 
-
-
-<h1 id="prompting-principles">Prompting Engineering</h1>
+  
+<h1 id="prompting-engineering">Prompting Engineering</h1>
 <ul>
-<li><a href="#prompting-principles">Prompting Engineering</a></li>
-<li><a href="#andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers">1 Andrew Ng &amp; Isa Fulford - ChatGPT Prompt Engineering for Developers</a><ul>
-<li><a href="#principle-1-write-clear-and-specific-instructions">1.1 Principle 1: Write clear and specific instructions</a></li>
-<li><a href="#principle-2-give-the-model-time-to-think">1.2 Principle 2: Give the model time to “think”</a><ul>
+<li><a href="#prompting-engineering">Prompting Engineering</a></li>
+<li><a href="#0-tldr---too-long-dont-read">0 TL;DR - Too Long; Don&#39;t Read.</a><ul>
+<li><a href="#costar-framework">COSTAR Framework</a></li>
+<li><a href="#principles">Principles</a><ul>
+<li><a href="#reference">Reference:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#1-andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers">1 Andrew Ng \&amp; Isa Fulford - ChatGPT Prompt Engineering for Developers</a><ul>
+<li><a href="#11-principle-1-write-clear-and-specific-instructions">1.1 Principle 1: Write clear and specific instructions</a></li>
+<li><a href="#12-principle-2-give-the-model-time-to-think">1.2 Principle 2: Give the model time to “think”</a><ul>
 <li><a href="#notes">Notes</a></li>
 </ul>
 </li>
-<li><a href="#iterative-prompt-development">1.3 Iterative prompt development</a><ul>
+<li><a href="#13-iterative-prompt-development">1.3 Iterative prompt development</a><ul>
 <li><a href="#notes-1">Notes</a></li>
 </ul>
 </li>
-<li><a href="#capabilites">1.4 Capabilites</a></li>
-<li><a href="#chatbot">1.5 Chatbot</a><ul>
+<li><a href="#14-capabilites">1.4 Capabilites</a></li>
+<li><a href="#15-chatbot">1.5 Chatbot</a><ul>
 <li><a href="#notes-2">Notes</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#andrew-ng--amit-sangani---prompt-engineering-with-llama-23">2 Andrew Ng &amp; Amit Sangani - Prompt Engineering with Llama 2&amp;3</a><ul>
-<li><a href="#overview-llama-models">2.1 Overview Llama Models</a></li>
-<li><a href="#basic">2.2 Basic</a></li>
-<li><a href="#multi-turn-conversations">2.3 Multi-turn Conversations</a></li>
-<li><a href="#prompt-engineering-techniques">2.4 Prompt Engineering Techniques</a></li>
-<li><a href="#llama-guard">2.5 Llama guard</a></li>
+<li><a href="#2-andrew-ng--amit-sangani---prompt-engineering-with-llama-23">2 Andrew Ng \&amp; Amit Sangani - Prompt Engineering with Llama 2\&amp;3</a><ul>
+<li><a href="#21-overview-llama-models">2.1 Overview Llama Models</a></li>
+<li><a href="#22-basic">2.2 Basic</a></li>
+<li><a href="#23-multi-turn-conversations">2.3 Multi-turn Conversations</a></li>
+<li><a href="#24-prompt-engineering-techniques">2.4 Prompt Engineering Techniques</a></li>
+<li><a href="#25-llama-guard">2.5 Llama guard</a></li>
+</ul>
+</li>
+<li><a href="#3-microsoft">3 Microsoft</a></li>
+<li><a href="#4-google">4 Google</a></li>
+<li><a href="#5-other">5 Other</a></li>
+</ul>
+
+
+
+
+<hr>
+<div class="articleheader1">
+<h1 id="0-tl-dr-too-long-don-t-read-">0 TL;DR - Too Long; Don&#39;t Read.</h1>
+</div>
+
+<p>Take away: COSTAR framwork and principles.</p>
+<h3 id="costar-framework">COSTAR Framework</h3>
+<ul>
+<li>C - Context<ul>
+<li>Providing background information helps the LLM understand the specific scenario.</li>
+<li>Multi shots prompting (multiple examples)</li>
+</ul>
+</li>
+<li>O - Objective<ul>
+<li>Clearly defining the task directs the LLM’s focus.</li>
+<li>Use CoT (Chain of Thoughts)<ul>
+<li>&quot;Let&#39;s think step by step.&quot;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>S - Style<ul>
+<li>Specifying the desired writing style aligns the LLM response.</li>
+</ul>
+</li>
+<li>T - Tone<ul>
+<li>Set the attitude and tone of the response. Indicates the emotional character or attitude of the response, shaping how the message is emotionally conveyed.</li>
+</ul>
+</li>
+<li>A - Audience<ul>
+<li>Identify who the response is for. Defines the intended audience or reader of the content, influencing the language, complexity, and approach of the response.</li>
+</ul>
+</li>
+<li>R - Response<ul>
+<li>Provide the response format and style, how the response should be structured.</li>
+</ul>
+</li>
+</ul>
+<h3 id="principles">Principles</h3>
+<ul>
+<li>Multiple Shots Prompting</li>
+<li>Chain of Thoughts (CoT)<ul>
+<li>&quot;Let&#39;s think step by step.&quot;</li>
+<li>&quot;Think step by step. Explain each intermediate step. Only when you are done with all your steps, provide the answer based on your intermediate steps.&quot;</li>
+</ul>
+</li>
+<li>Iterate</li>
+</ul>
+<h4 id="reference-">Reference:</h4>
+<ul>
+<li>Best Prompt Techniques for Best LLM Responses (COSTAR)<ul>
+<li><a href="https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca">https://medium.com/the-modern-scientist/best-prompt-techniques-for-best-llm-responses-24d2ff4f6bca</a></li>
+</ul>
+</li>
+<li>Mastering Prompt Engineering: A Guide to the CO-STAR and TIDD-EC Frameworks<ul>
+<li><a href="https://vivasai01.medium.com/mastering-prompt-engineering-a-guide-to-the-co-star-and-tidd-ec-frameworks-3334588cb908">https://vivasai01.medium.com/mastering-prompt-engineering-a-guide-to-the-co-star-and-tidd-ec-frameworks-3334588cb908</a></li>
 </ul>
 </li>
 </ul>
@@ -90,25 +167,27 @@
 
 <hr>
 <div class="articleheader1">
-<h1 id="andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers">1 Andrew Ng &amp; Isa Fulford - ChatGPT Prompt Engineering for Developers</h1>
+<h1 id="1-andrew-ng-isa-fulford-chatgpt-prompt-engineering-for-developers">1 Andrew Ng &amp; Isa Fulford - ChatGPT Prompt Engineering for Developers</h1>
 </div>
 
+
 <p><a href="https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction">https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction</a> </p>
-<h2 id="principle-1-write-clear-and-specific-instructions">1.1 Principle 1: Write clear and specific instructions</h2>
+<h2 id="1-1-principle-1-write-clear-and-specific-instructions">1.1 Principle 1: Write clear and specific instructions</h2>
 <ul>
 <li>Tactic 1: Use delimiters to clearly indicate distinct parts of the input
-<ul>
-<li>Delimiters can be anything like: ```, &quot;&quot;&quot;, &lt; &gt;, <tag> </tag>, :
-</ul>
+  <ul>
+  <li>Delimiters can be anything like: ```, &quot;&quot;&quot;, &lt; &gt;, <tag> </tag>, :</li>
+  </ul>
 </li>
-<li>Tactic 2: Ask for a structured output<ul>
-<li>JSON, HTML</li>
-</ul>
+<li>Tactic 2: Ask for a structured output
+  <ul>
+  <li>JSON, HTML</li>
+  </ul>
 </li>
 <li>Tactic 3: Ask the model to check whether conditions are satisfied</li>
 <li>Tactic 4: &quot;Few-shot&quot; prompting</li>
 </ul>
-<h2 id="principle-2-give-the-model-time-to-think">1.2 Principle 2: Give the model time to “think”</h2>
+<h2 id="1-2-principle-2-give-the-model-time-to-think-">1.2 Principle 2: Give the model time to “think”</h2>
 <ul>
 <li>Tactic 1: Specify the steps required to complete a task</li>
 <li>Ask for output in a specified format</li>
@@ -116,127 +195,198 @@
 </ul>
 <h3 id="notes">Notes</h3>
 <ul>
-<li><a href="./gai/andrew_ng_prompts/l2-guidelines.html">2-guidelines.html</a></li>
-<li><a href="./gai/andrew_ng_prompts/l2-guidelines.ipynb">2-guidelines.ipynb</a></li>
+<li><a href="./andrew_ng_prompts/l2-guidelines.html">2-guidelines.html</a></li>
+<li><a href="./andrew_ng_prompts/l2-guidelines.ipynb">2-guidelines.ipynb</a></li>
 </ul>
-<h2 id="iterative-prompt-development">1.3 Iterative prompt development</h2>
-<h3 id="notes-1">Notes</h3>
+<h2 id="1-3-iterative-prompt-development">1.3 Iterative prompt development</h2>
+<h3 id="notes">Notes</h3>
 <ul>
-<li><a href="./gai/andrew_ng_prompts/l3-iterative-prompt-development.html">3-iterative-prompt-development.html</a></li>
-<li><a href="./gai/andrew_ng_prompts/l3-iterative-prompt-development.ipynb">3-iterative-prompt-development.ipynb</a></li>
+<li><a href="./andrew_ng_prompts/l3-iterative-prompt-development.html">3-iterative-prompt-development.html</a></li>
+<li><a href="./andrew_ng_prompts/l3-iterative-prompt-development.ipynb">3-iterative-prompt-development.ipynb</a> </li>
 </ul>
-<h2 id="capabilites">1.4 Capabilites</h2>
+<h2 id="1-4-capabilites">1.4 Capabilites</h2>
 <ul>
-<li><p>Summarizing</p>
-<ul>
+<li>Summarizing
+  <ul>
   <li>Summarize with a word/sentence/character limit</li>
-
   <li>Summarize with a focus on xxx</li>
-
   <li>Try &quot;extract&quot; instead of &quot;summarize&quot;</li>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l4-summarizing.html">4-summarizing.html</a></li>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l4-summarizing.ipynb">4-summarizing.ipynb</a></li>
-</ul>
+  <li>Notes <a href="./andrew_ng_prompts/l4-summarizing.html">4-summarizing.html</a></li>
+  <li>Notes <a href="./andrew_ng_prompts/l4-summarizing.ipynb">4-summarizing.ipynb</a></li>
+  </ul>
 </li>
-
-<li><p>Inferring</p>
-<ul>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l5-inferring.html">5-inferring.html</a></li>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l5-inferring.ipynb">5-inferring.ipynb</a></li>
-</ul>
+<li>Inferring
+  <ul>
+  <li>Notes <a href="./andrew_ng_prompts/l5-inferring.html">5-inferring.html</a></li>  
+  <li>Notes <a href="./andrew_ng_prompts/l5-inferring.ipynb">5-inferring.ipynb</a></li>
+  </ul>
 </li>
-
-<li><p>Transforming</p>
-<ul>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l6-transforming.html">6-transforming.html</a></li>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l6-transforming.ipynb">6-transforming.ipynb</a></li>
-</ul>
+<li>Transforming
+  <ul>
+  <li>Notes <a href="./andrew_ng_prompts/l6-transforming.html">6-transforming.html</a></li>
+  <li>Notes <a href="./andrew_ng_prompts/l6-transforming.ipynb">6-transforming.ipynb</a></li>
+  </ul>
 </li>
-
-<li><p>Expanding</p>
-<ul>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l7-expanding.html">7-expanding.html</a></li>
-  <li>Notes <a href="./gai/andrew_ng_prompts/l7-expanding.ipynb">7-expanding.ipynb</a></li>
-</ul>
+<li>Expanding
+  <ul>
+  <li>Notes <a href="./andrew_ng_prompts/l7-expanding.html">7-expanding.html</a></li>
+  <li>Notes <a href="./andrew_ng_prompts/l7-expanding.ipynb">7-expanding.ipynb</a></li>
+  </ul>
 </li>
 </ul>
-<h2 id="chatbot">1.5 Chatbot</h2>
-<h3 id="notes-2">Notes</h3>
+<h2 id="1-5-chatbot">1.5 Chatbot</h2>
+<h3 id="notes">Notes</h3>
 <ul>
-<li><a href="./gai/andrew_ng_prompts/l8-chatbot.html">8-chatbot.html</a></li>
-<li><a href="./gai/andrew_ng_prompts/l8-chatbot.ipynb">8-chatbot.ipynb</a></li>
+<li><a href="./andrew_ng_prompts/l8-chatbot.html">8-chatbot.html</a></li>
+<li><a href="./andrew_ng_prompts/l8-chatbot.ipynb">8-chatbot.ipynb</a> </li>
 </ul>
 
 
 <hr>
 <div class="articleheader1">
-<h1 id="andrew-ng--amit-sangani---prompt-engineering-with-llama-23">2 Andrew Ng &amp; Amit Sangani - Prompt Engineering with Llama 2&amp;3</h1>
+<h1 id="2-andrew-ng-amit-sangani-prompt-engineering-with-llama-2-3">2 Andrew Ng &amp; Amit Sangani - Prompt Engineering with Llama 2&amp;3</h1>
 </div>
 
 
 <p><a href="https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/introduction">https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/introduction</a> </p>
-<h2 id="overview-llama-models">2.1 Overview Llama Models</h2>
-<p><img src="./gai/llama_prompts/llama2models.png" alt="">
-<img src="./gai/llama_prompts/codellamamodels.png" alt=""></p>
-<h2 id="basic">2.2 Basic</h2>
+<h2 id="2-1-overview-llama-models">2.1 Overview Llama Models</h2>
+<!-- ![](./llama_prompts/llama2models.png)
+![](./llama_prompts/codellamamodels.png) -->
+<p><img style="width: 250px;" src="./gai/llama_prompts/llama2models.png" alt="">
+<img style="width: 250px;" src="./gai/llama_prompts/codellamamodels.png" alt=""></p>
+
+<h2 id="2-2-basic">2.2 Basic</h2>
 <ul>
-<li><a href="./gai/llama_prompts/L2_getting_started.html">2_getting_started.html</a></li>
-<li><a href="./gai/llama_prompts/L2_getting_started.ipynb">2_getting_started.ipynb</a></li>
+<li><a href="./llama_prompts/L2_getting_started.html">2_getting_started.html</a></li>
+<li><a href="./llama_prompts/L2_getting_started.ipynb">2_getting_started.ipynb</a></li>
 </ul>
-<h2 id="multi-turn-conversations">2.3 Multi-turn Conversations</h2>
-<p><img src="./gai/llama_prompts/L3-1.png" alt="">
-<img src="./gai/llama_prompts/L3-2.png" alt=""></p>
-<pre><code>from utils import llama
-from utils import llama_chat
-</code></pre>
-<ul>
-<li><a href="./gai/llama_prompts/L3_multi_turn_conversations.html">3_multi_turn_conversations.html</a></li>
-<li><a href="./gai/llama_prompts/L3_multi_turn_conversations.ipynb">3_multi_turn_conversations.ipynb</a></li>
+<h2 id="2-3-multi-turn-conversations">2.3 Multi-turn Conversations</h2>
+<!-- ![](./llama_prompts/L3-1.png)
+![](./llama_prompts/L3-2.png) -->
+<p><img  src="./gai/llama_prompts/L3-1.png" alt="">
+<img  src="./gai/llama_prompts/L3-2.png" alt=""></p>
+
+<pre><code><span class="hljs-keyword">from</span> utils <span class="hljs-keyword">import</span> llama
+<span class="hljs-keyword">from</span> utils <span class="hljs-keyword">import</span> llama_chat
+</code></pre><ul>
+<li><a href="./llama_prompts/L3_multi_turn_conversations.html">3_multi_turn_conversations.html</a></li>
+<li><a href="./llama_prompts/L3_multi_turn_conversations.ipynb">3_multi_turn_conversations.ipynb</a></li>
 </ul>
-<h2 id="prompt-engineering-techniques">2.4 Prompt Engineering Techniques</h2>
+<h2 id="2-4-prompt-engineering-techniques">2.4 Prompt Engineering Techniques</h2>
 <ul>
-<li><p>In-Context Learning</p>
-</li>
-<li><p>Zero-shot Prompting</p>
-</li>
-<li><p>Few-shot Prompting</p>
-</li>
-<li><p>Specifying the Output Format</p>
-</li>
-<li><p>Role Prompting</p>
-</li>
-<li><p>Chain-of-thought Prompting</p>
-<ul>
+<li>In-Context Learning</li>
+<li>Zero-shot Prompting</li>
+<li>Few-shot Prompting</li>
+<li>Specifying the Output Format</li>
+<li>Role Prompting</li>
+<li>Chain-of-thought Prompting
+  <ul>
 <li>&quot;Think step by step.
 Explain each intermediate step.
 Only when you are done with all your steps,
 provide the answer based on your intermediate steps.&quot;</li>
 </ul>
 </li>
-<li><p><a href="./gai/llama_prompts/L4_prompt_engineering_techniques.html">4_prompt_engineering_techniques.html</a></p>
+<li><a href="./llama_prompts/L4_prompt_engineering_techniques.html">4_prompt_engineering_techniques.html</a>
 </li>
-<li><p><a href="./gai/llama_prompts/L4_prompt_engineering_techniques.ipynb">4_prompt_engineering_techniques.ipynb</a></p>
-</li>
-<li><p><a href="./gai/llama_prompts/L5_comparing_llama_models.html">5_comparing_llama_models.html</a></p>
-</li>
-<li><p><a href="./gai/llama_prompts/L5_comparing_llama_models.ipynb">5_comparing_llama_models.ipynb</a></p>
-</li>
-<li><p><a href="./gai/llama_prompts/L6_code_llama.html">6_code_llama.html</a></p>
-</li>
-<li><p><a href="./gai/llama_prompts/L6_code_llama.ipynb">6_code_llama.ipynb</a></p>
-</li>
+<li><a href="./llama_prompts/L4_prompt_engineering_techniques.ipynb">4_prompt_engineering_techniques.ipynb</a></li>
+<li><a href="./llama_prompts/L5_comparing_llama_models.html">5_comparing_llama_models.html</a></li>
+<li><a href="./llama_prompts/L5_comparing_llama_models.ipynb">5_comparing_llama_models.ipynb</a></li>
+<li><a href="./llama_prompts/L6_code_llama.html">6_code_llama.html</a></li>
+<li><a href="./llama_prompts/L6_code_llama.ipynb">6_code_llama.ipynb</a></li>
 </ul>
-<h2 id="llama-guard">2.5 Llama guard</h2>
-<p><img style="width: 100px;" src="./gai/llama_prompts/L7_guard.png" alt="">
-<img style="width: 200px;" src="./gai/llama_prompts/L7_guard2.png" alt="">
-<img style="width: 200px;" src="./gai/llama_prompts/L7_guard3.png" alt="">
-<img style="width: 200px;" src="./gai/llama_prompts/L7_guard4.png" alt=""></p>
+<h2 id="2-5-llama-guard">2.5 Llama guard</h2>
+<!-- ![](./llama_prompts/L7_guard.png)
+![](./llama_prompts/L7_guard2.png)
+![](./llama_prompts/L7_guard3.png)
+![](./llama_prompts/L7_guard4.png) -->
+<p>
+<img style="width: 180px;" src="./gai/llama_prompts/L7_guard.png" alt="">
+<img style="width: 280px;" src="./gai/llama_prompts/L7_guard2.png" alt="">
+<img style="width: 280px;" src="./gai/llama_prompts/L7_guard3.png" alt="">
+<img style="width: 280px;" src="./gai/llama_prompts/L7_guard4.png" alt="">
+</p>
+
 <ul>
-<li><a href="./gai/llama_prompts/L7_llama_guard.html">7_llama_guard.html</a></li>
-<li><a href="./gai/llama_prompts/L7_llama_guard.ipynb">7_llama_guard.ipynb</a></li>
-<li><a href="./gai/llama_prompts/L8_walkthrough_helper_function.html">8_walkthrough_helper_function.html</a></li>
-<li><a href="./gai/llama_prompts/L8_walkthrough_helper_function.ipynb">8_walkthrough_helper_function.ipynb</a></li>
+<li><a href="./llama_prompts/L7_llama_guard.html">7_llama_guard.html</a></li>
+<li><a href="./llama_prompts/L7_llama_guard.ipynb">7_llama_guard.ipynb</a></li>
+<li><a href="./llama_prompts/L8_walkthrough_helper_function.html">8_walkthrough_helper_function.html</a></li>
+<li><a href="./llama_prompts/L8_walkthrough_helper_function.ipynb">8_walkthrough_helper_function.ipynb</a></li>
 </ul>
+
+<hr>
+<div class="articleheader1">
+<h1 id="3-microsoft">3 Microsoft</h1>
+</div>
+
+<p>Principles:</p>
+<ul>
+<li>clear instructions</li>
+<li>Consider delineating key components of the prompt or desired completion format </li>
+<li>Context</li>
+<li>Zero-shot learning (ZSL) and then few-shot learning (FSL) </li>
+<li>Try rearranging your prompt</li>
+<li>Optimize few-shot selection</li>
+<li>Instruct the model how to reason</li>
+<li>Handle ambiguous context </li>
+</ul>
+<p><a href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering">https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineering</a></p>
+<p><a href="https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineer-recommend">https://learn.microsoft.com/en-us/ai/playbook/technology-guidance/generative-ai/working-with-llms/prompt-engineer-recommend</a></p>
+
+<hr>
+<div class="articleheader1">
+<h1 id="4-google">4 Google</h1>
+</div>
+
+<p><a href="https://developers.google.com/machine-learning/resources/prompt-eng">https://developers.google.com/machine-learning/resources/prompt-eng</a></p>
+<p>Prompting Best Practices</p>
+<ul>
+<li>Clearly communicate what content or information is most important.</li>
+<li>Structure the prompt: <ul>
+<li>role, </li>
+<li>give context/input data, </li>
+<li>then provide the instruction.</li>
+</ul>
+</li>
+<li>Multi shots<ul>
+<li>Use specific, varied examples to help the model narrow its focus and generate more accurate results.</li>
+</ul>
+</li>
+<li>Use constraints to limit the scope of the model&#39;s output. </li>
+<li>CoT Chain-of-thought<ul>
+<li>Break down complex tasks into a sequence of simpler prompts.</li>
+</ul>
+</li>
+<li>Instruct the model to evaluate or check its own responses before producing them. </li>
+</ul>
+
+
+<hr>
+<div class="articleheader1">
+<h1 id="5-other">5 Other</h1>
+</div>
+
+<ul>
+<li><p>Nvidia</p>
+<ul>
+<li>Zero-shot prompts</li>
+<li>Few-shot prompts</li>
+<li>Chain-of-thought prompts</li>
+<li><a href="https://developer.nvidia.com/blog/an-introduction-to-large-language-models-prompt-engineering-and-p-tuning/">https://developer.nvidia.com/blog/an-introduction-to-large-language-models-prompt-engineering-and-p-tuning/</a></li>
+</ul>
+</li>
+<li><p>Explained Methodologies and frameworks in Prompt Engineering</p>
+<ul>
+<li><a href="https://medium.com/@jelkhoury880/some-methodologies-in-prompt-engineering-fa1a0e1a9edb">https://medium.com/@jelkhoury880/some-methodologies-in-prompt-engineering-fa1a0e1a9edb</a></li>
+</ul>
+</li>
+<li><p>Oracle</p>
+<ul>
+<li><a href="https://blogs.oracle.com/ai-and-datascience/post/beginners-guide-engineering-prompts-llm">https://blogs.oracle.com/ai-and-datascience/post/beginners-guide-engineering-prompts-llm</a></li>
+</ul>
+</li>
+</ul>
+
 
 
 

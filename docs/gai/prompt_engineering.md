@@ -1,25 +1,25 @@
-# Prompting Principles
+# Prompting Engineering
 
-- [Prompting Principles](#prompting-principles)
+- [Prompting Engineering](#prompting-engineering)
 - [0 TL;DR - Too Long; Don't Read.](#0-tldr---too-long-dont-read)
     - [COSTAR Framework](#costar-framework)
     - [Principles](#principles)
       - [Reference:](#reference)
 - [1 Andrew Ng \& Isa Fulford - ChatGPT Prompt Engineering for Developers](#1-andrew-ng--isa-fulford---chatgpt-prompt-engineering-for-developers)
-  - [Principle 1: Write clear and specific instructions](#principle-1-write-clear-and-specific-instructions)
-  - [Principle 2: Give the model time to “think”](#principle-2-give-the-model-time-to-think)
+  - [1.1 Principle 1: Write clear and specific instructions](#11-principle-1-write-clear-and-specific-instructions)
+  - [1.2 Principle 2: Give the model time to “think”](#12-principle-2-give-the-model-time-to-think)
     - [Notes](#notes)
-  - [Iterative prompt development](#iterative-prompt-development)
+  - [1.3 Iterative prompt development](#13-iterative-prompt-development)
     - [Notes](#notes-1)
-  - [Capabilites](#capabilites)
-  - [Chatbot](#chatbot)
+  - [1.4 Capabilites](#14-capabilites)
+  - [1.5 Chatbot](#15-chatbot)
     - [Notes](#notes-2)
 - [2 Andrew Ng \& Amit Sangani - Prompt Engineering with Llama 2\&3](#2-andrew-ng--amit-sangani---prompt-engineering-with-llama-23)
-  - [Overview Llama Models](#overview-llama-models)
-  - [Basic](#basic)
-  - [Multi-turn Conversations](#multi-turn-conversations)
-  - [Prompt Engineering Techniques](#prompt-engineering-techniques)
-  - [Llama guard](#llama-guard)
+  - [2.1 Overview Llama Models](#21-overview-llama-models)
+  - [2.2 Basic](#22-basic)
+  - [2.3 Multi-turn Conversations](#23-multi-turn-conversations)
+  - [2.4 Prompt Engineering Techniques](#24-prompt-engineering-techniques)
+  - [2.5 Llama guard](#25-llama-guard)
 - [3 Microsoft](#3-microsoft)
 - [4 Google](#4-google)
 - [5 Other](#5-other)
@@ -64,7 +64,7 @@ Take away: COSTAR framwork and principles.
 # 1 Andrew Ng & Isa Fulford - ChatGPT Prompt Engineering for Developers  
 https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction 
 
-## Principle 1: Write clear and specific instructions
+## 1.1 Principle 1: Write clear and specific instructions
 
 - Tactic 1: Use delimiters to clearly indicate distinct parts of the input
 - - Delimiters can be anything like: ```, """, < >, <tag> </tag>, :
@@ -74,7 +74,7 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 - Tactic 4: "Few-shot" prompting
 
 
-## Principle 2: Give the model time to “think”
+## 1.2 Principle 2: Give the model time to “think”
 - Tactic 1: Specify the steps required to complete a task
 - Ask for output in a specified format
 - Tactic 2: Instruct the model to work out its own solution before rushing to a conclusion
@@ -83,13 +83,13 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 - [2-guidelines.html](./andrew_ng_prompts/l2-guidelines.html)
 - [2-guidelines.ipynb](./andrew_ng_prompts/l2-guidelines.ipynb)
 
-## Iterative prompt development
+## 1.3 Iterative prompt development
  
 ### Notes
 - [3-iterative-prompt-development.html](./andrew_ng_prompts/l3-iterative-prompt-development.html)
 - [3-iterative-prompt-development.ipynb](./andrew_ng_prompts/l3-iterative-prompt-development.ipynb) 
 
-## Capabilites
+## 1.4 Capabilites
 - Summarizing
 - - Summarize with a word/sentence/character limit
 - - Summarize with a focus on xxx
@@ -108,7 +108,7 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 - - Notes [7-expanding.html](./andrew_ng_prompts/l7-expanding.html)
 - - Notes [7-expanding.ipynb](./andrew_ng_prompts/l7-expanding.ipynb)
 
-## Chatbot
+## 1.5 Chatbot
 ### Notes
 - [8-chatbot.html](./andrew_ng_prompts/l8-chatbot.html)
 - [8-chatbot.ipynb](./andrew_ng_prompts/l8-chatbot.ipynb) 
@@ -119,7 +119,7 @@ https://learn.deeplearning.ai/courses/chatgpt-prompt-eng/lesson/1/introduction
 
 https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/introduction 
 
-## Overview Llama Models
+## 2.1 Overview Llama Models
 
 <!-- ![](./llama_prompts/llama2models.png)
 ![](./llama_prompts/codellamamodels.png) -->
@@ -127,11 +127,11 @@ https://learn.deeplearning.ai/courses/prompt-engineering-with-llama-2/lesson/1/i
 <p><img style="width: 250px;" src="./llama_prompts/llama2models.png" alt="">
 <img style="width: 250px;" src="./llama_prompts/codellamamodels.png" alt=""></p>
 
-## Basic
+## 2.2 Basic
 - [2_getting_started.html](./llama_prompts/L2_getting_started.html)
 - [2_getting_started.ipynb](./llama_prompts/L2_getting_started.ipynb)
  
-## Multi-turn Conversations
+## 2.3 Multi-turn Conversations
 
 <!-- ![](./llama_prompts/L3-1.png)
 ![](./llama_prompts/L3-2.png) -->
@@ -147,7 +147,7 @@ from utils import llama_chat
 - [3_multi_turn_conversations.html](./llama_prompts/L3_multi_turn_conversations.html)
 - [3_multi_turn_conversations.ipynb](./llama_prompts/L3_multi_turn_conversations.ipynb)
 
-## Prompt Engineering Techniques
+## 2.4 Prompt Engineering Techniques
 - In-Context Learning
 - Zero-shot Prompting
 - Few-shot Prompting
@@ -166,7 +166,7 @@ from utils import llama_chat
 - [6_code_llama.html](./llama_prompts/L6_code_llama.html)
 - [6_code_llama.ipynb](./llama_prompts/L6_code_llama.ipynb)
 
-## Llama guard
+## 2.5 Llama guard
 
 <!-- ![](./llama_prompts/L7_guard.png)
 ![](./llama_prompts/L7_guard2.png)
