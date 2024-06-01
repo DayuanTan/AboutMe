@@ -26,7 +26,7 @@
 
 # 0 TL;DR - Too Long; Don't Read.
 
-Take away: COSTAR framwork and principles.
+Take away: COSTAR framework and principles.
 
 ### COSTAR Framework
 
