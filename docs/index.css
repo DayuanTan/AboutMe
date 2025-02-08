@@ -20,7 +20,7 @@ h2 span{
     background-color: #e9ecef;
 }
 h4 {
-    text-decoration: underline overline;
+    /* text-decoration: underline overline; */
 }
 h4 span{
     background-color: #e9ecef;
