@@ -7811,7 +7811,7 @@ a.anchor-link {
 <span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">text</span><span class="p">:</span>
     <span class="n">prompt</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">"""Proofread and correct the following text</span>
 <span class="s2">    and rewrite the corrected version. If you don't find</span>
-<span class="s2">    and errors, just say "No errors found". Don't use </span>
+<span class="s2">    any errors, just say "No errors found". Don't use </span>
 <span class="s2">    any punctuation around the text:</span>
 <span class="s2">    ```</span><span class="si">{</span><span class="n">t</span><span class="si">}</span><span class="s2">```"""</span>
     <span class="n">response</span> <span class="o">=</span> <span class="n">get_completion</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span>
