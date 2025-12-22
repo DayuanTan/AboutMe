@@ -47,11 +47,26 @@
 }
 
 .index-showcase {
-  font-style: italic;
-  font-size: x-large;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.glance-title {
+  display: block;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  margin-bottom: 0.25rem;
+}
+
+.glance-desc {
+  display: block;
+  font-style: normal;
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.45;
 }
 
 
@@ -139,10 +154,10 @@ footer a {
 
 
 
-  .projects_video{
-    width: 60%;
-    margin: auto;
-  }
+.projects_video{
+  width: 60%;
+  margin: auto;
+}
 
 .paper_type {
     display: inline-block;

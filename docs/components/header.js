@@ -32,7 +32,7 @@ class Header extends HTMLElement {
           <div class="container">
                   <ul class="navbar-nav w-100 justify-content-center">
                       <li class="nav-item">
-                          <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                          <a class="nav-link " aria-current="page" href="index.html">Home & Contact</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="researches.html">Academic Researches</a>
