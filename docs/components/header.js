@@ -51,6 +51,19 @@ class Header extends HTMLElement {
         </nav>  
 
       `;
+
+      const currentPath = window.location.pathname.split("/").pop() || "index.html";
+      const navLinks = this.querySelectorAll(".mynav .nav-link");
+      navLinks.forEach((link) => {
+        const href = link.getAttribute("href");
+        const isActive = href === currentPath;
+        link.classList.toggle("active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "page");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
     }
   }
   
