@@ -1,0 +1,334 @@
+.slider_homepage {
+    width: 60%;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+  }
+.slider{
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto; /* content center */
+  }
+.sliderwsn{
+    height: 650px;
+  }
+.sliderarchi{
+    height: 500px;
+  }
+.slider_advancedarchi{
+    height: 600px;
+  }
+.slider_lb{
+    height: 500px;
+  }
+.slidermc{
+    height: 500px;
+  }
+
+
+  
+  .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 100%;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  /* decide not to show the manual dots
+  .navigation-manual{
+    position: absolute;
+    width: 60%; // 800px; 
+    margin-top: -5%;
+    display: flex;
+    justify-content: center;
+  }
+  .navigation-manual-homepage {
+    margin-top: -52.8%;
+  } 
+  .navigation-manual-wsn {
+    margin-top: 5%;
+  } 
+  .navigation-manual-advanced-archi {
+    margin-top: 3%;
+  } 
+ 
+  
+  
+  .manual-btn{
+    border: 2px solid #007bff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #007bff;
+  }
+  */
+
+  #radio-aos1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radio-aos2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radio-aos3:checked ~ .first{
+    margin-left: -40%;
+  }
+ 
+
+  #radiowsn1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiowsn2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiowsn3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiowsn4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+  #radioarchi1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radioarchi2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radioarchi3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radioarchi4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+  #radioadvancedarchi1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radioadvancedarchi2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radioadvancedarchi3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radioadvancedarchi4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radioadvancedarchi5:checked ~ .first{
+    margin-left: -80%;
+  }
+
+  #radiodsbank1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsbank2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsbank3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiodsbank4:checked ~ .first{
+    margin-left: -60%;
+  }
+
+  #radiodsmc1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsmc2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsmc3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiodsmc4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radiodsmc5:checked ~ .first{
+    margin-left: -80%;
+  }
+
+
+  #radiodsmc_indexpage1:checked ~ .first{
+    margin-left: 0;
+  }
+  #radiodsmc_indexpage2:checked ~ .first{
+    margin-left: -20%;
+  }
+  #radiodsmc_indexpage3:checked ~ .first{
+    margin-left: -40%;
+  }
+  #radiodsmc_indexpage4:checked ~ .first{
+    margin-left: -60%;
+  }
+  #radiodsmc_indexpage5:checked ~ .first{
+    margin-left: -80%;
+  }
+
+  
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 60%; /* 800px; */
+    justify-content: center;
+    margin-top: 50%;
+  }
+  .navigation-auto-homepage{
+    margin-top: 35%;
+  }
+  .navigation-auto-wsn{
+    margin-top: 48.9%;
+  }
+  .navigation-auto-archi{
+    margin-top: 38.9%;
+  }
+  .navigation-auto-advanced-archi{
+    margin-top: 46.9%;
+  }
+  .navigation-auto-ld{
+    margin-top: 38.9%;
+  }
+  .navigation-auto-mc{
+    margin-top: 38.9%;
+  }
+  
+  
+  .navigation-auto div{
+    border: 2px solid #007bff;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio-aos1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radio-aos2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radio-aos3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+
+
+  #radiowsn1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiowsn2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiowsn3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiowsn4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+  #radioarchi1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radioarchi2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radioarchi3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radioarchi4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+
+  #radioadvancedarchi1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radioadvancedarchi2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radioadvancedarchi3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radioadvancedarchi4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+  #radioadvancedarchi5:checked ~ .navigation-auto .auto-btn5{
+    background: #007bff;
+  }
+
+
+  #radiodsbank1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsbank2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsbank3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsbank4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+
+
+  #radiodsmc1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsmc2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsmc3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsmc4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+  #radiodsmc5:checked ~ .navigation-auto .auto-btn5{
+    background: #007bff;
+  }
+
+
+
+
+  #radiodsmc_indexpage1:checked ~ .navigation-auto .auto-btn1{
+    background: #007bff;
+  }
+  #radiodsmc_indexpage2:checked ~ .navigation-auto .auto-btn2{
+    background: #007bff;
+  }
+  #radiodsmc_indexpage3:checked ~ .navigation-auto .auto-btn3{
+    background: #007bff;
+  }
+  #radiodsmc_indexpage4:checked ~ .navigation-auto .auto-btn4{
+    background: #007bff;
+  }
+  #radiodsmc_indexpage5:checked ~ .navigation-auto .auto-btn5{
+    background: #007bff;
+  }
