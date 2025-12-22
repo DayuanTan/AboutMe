@@ -1,0 +1,137 @@
+h2 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: clamp(1.6rem, 1.2rem + 1vw, 2.2rem);
+    letter-spacing: 0.02em;
+    margin: 2.2rem 0 1rem;
+    position: relative;
+    padding-bottom: 0.4rem;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 3rem;
+    height: 0.25rem;
+    background: #cbd5e1;
+    border-radius: 0.2rem;
+}
+
+h2 span{
+    background: #e9ecef;
+    padding: 0 0.3em;
+    box-decoration-break: clone;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: #2f3b4a;
+    margin: 1.6rem 0 0.7rem;
+    position: relative;
+    padding-bottom: 0.35rem;
+}
+
+h3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2.4rem;
+    height: 0.22rem;
+    background: #d5dbe3;
+    border-radius: 0.2rem;
+}
+
+h3 span{
+    background: #eef1f4;
+    padding: 0 0.3em;
+    box-decoration-break: clone;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #374151;
+    margin: 1.4rem 0 0.6rem;
+    position: relative;
+    padding-bottom: 0.3rem;
+}
+
+h4::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 2rem;
+    height: 0.2rem;
+    background: #dde2e8;
+    border-radius: 0.2rem;
+}
+
+h4 span{
+    background: #eef1f4;
+    padding: 0 0.25em;
+    box-decoration-break: clone;
+}
+
+h5 {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #4b5563;
+    margin: 1.1rem 0 0.4rem;
+    position: relative;
+    padding-bottom: 0.25rem;
+}
+
+h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1.6rem;
+    height: 0.18rem;
+    background: #e3e6ea;
+    border-radius: 0.2rem;
+}
+
+h5 span{
+    background: #f2f4f7;
+    padding: 0 0.2em;
+    box-decoration-break: clone;
+}
+
+h5 a {
+    font-size: 1rem;
+    background: #f2f4f7;
+    padding: 0 0.2em;
+    box-decoration-break: clone;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #6b7280;
+    margin: 0.9rem 0 0.3rem;
+    position: relative;
+    padding-bottom: 0.2rem;
+}
+
+h6::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1.3rem;
+    height: 0.16rem;
+    background: #e8eaee;
+    border-radius: 0.2rem;
+}
+
+h6 span{
+    background: #f5f6f8;
+    padding: 0 0.2em;
+    box-decoration-break: clone;
+}

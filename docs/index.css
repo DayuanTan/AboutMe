@@ -11,26 +11,6 @@
     height: 22px;
 }
 
-h2 {
-    font-weight: 900;
-    font-style: italic;
-    text-decoration: underline overline;
-    padding-bottom: 10px;
-}
-h2 span{
-    background-color: #e9ecef;
-}
-h4 {
-    /* text-decoration: underline overline; */
-}
-h4 span{
-    background-color: #e9ecef;
-}
-h5 a {
-    background-color: #e9ecef;
-    font-size: x-large;
-}
-
 .paper_name_homepage {
     background-color: white;
     font-size: medium;
