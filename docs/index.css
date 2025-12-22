@@ -55,7 +55,9 @@
 }
 
 
-
+hr {
+  margin: 1.2rem 0;
+}
 
 
 table th,td{
@@ -480,12 +482,23 @@ footer a {
     margin: auto;
   }
 
-  .paper_type {
-    font-style: italic;
-    margin-bottom: 0;
-    color: gray;
-    opacity: 0.7;
-  }
+.paper_type {
+    display: inline-block;
+    font-style: normal;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4b5563;
+    background: #eef1f4;
+    padding: 0.18rem 0.5rem;
+    border-radius: 999px;
+    margin: 0 0 0.35rem;
+}
+
+.paper_type + h3 {
+    margin-top: 0.2rem;
+}
 
 .articletitleinnotepage p a {
   font-size: 26px;
