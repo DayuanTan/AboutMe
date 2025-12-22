@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <defs>
+    <style>
+      .title { font: 700 22px Arial, Helvetica, sans-serif; }
+      .subtitle { font: 600 16px Arial, Helvetica, sans-serif; }
+      .label { font: 600 15px Arial, Helvetica, sans-serif; }
+      .small { font: 14px Arial, Helvetica, sans-serif; }
+      .tiny { font: 12px Arial, Helvetica, sans-serif; }
+      .muted { fill: #444; }
+      .muted2 { fill: #666; }
+      .stroke { stroke: #222; stroke-width: 2.5; fill: none; }
+      .fillL { fill: rgba(0,0,0,0.04); stroke: #222; stroke-width: 2.5; }
+      .fillR { fill: rgba(0,0,0,0.03); stroke: #222; stroke-width: 2.5; }
+      .band { fill: rgba(0,0,0,0.06); stroke: #222; stroke-width: 2; }
+      .centerbox { fill: rgba(255,255,255,0.85); stroke: #222; stroke-width: 1.5; }
+    </style>
+  </defs>
+
+  <!-- Header -->
+  <text x="600" y="44" text-anchor="middle" class="title">Research Overview (Venn + Constraints)</text>
+  <text x="600" y="78" text-anchor="middle" class="subtitle muted">
+    Application Domains: ITS · Smart Cities · Smart Homes
+  </text>
+  <text x="600" y="112" text-anchor="middle" class="small muted2">
+    Networked &amp; Sensing: VANET · WSN · IoT · IoV · CAV
+  </text>
+
+  <!-- Two main circles -->
+  <circle cx="470" cy="400" r="250" class="fillL"/>
+  <circle cx="730" cy="400" r="250" class="fillR"/>
+
+  <!-- Deterministic constraint band (horizontal) -->
+  <rect x="160" y="350" width="880" height="115" rx="18" class="band"/>
+
+  <!-- Circle labels -->
+  <text x="470" y="165" text-anchor="middle" class="label">Learning-Based Methods</text>
+  <text x="470" y="186" text-anchor="middle" class="small muted2">(AI · ML · RL)</text>
+
+  <text x="730" y="165" text-anchor="middle" class="label">System Foundations</text>
+  <text x="730" y="186" text-anchor="middle" class="small muted2">(Distributed Systems · Blockchain)</text>
+
+  <!-- Band label -->
+  <text x="600" y="378" text-anchor="middle" class="label">Deterministic &amp; Logic-Based Design (Constraint)</text>
+  <text x="600" y="399" text-anchor="middle" class="tiny muted2">rules · modeling · guarantees · interpretable control</text>
+
+  <!-- Intersection focus -->
+  <rect x="430" y="425" width="340" height="70" rx="12" class="centerbox"/>
+  <text x="600" y="465" text-anchor="middle" class="label">AI at Scale for CPS</text>
+  <text x="600" y="487" text-anchor="middle" class="tiny muted2">learning + distributed coordination under deterministic constraints</text>
+
+  <!-- Callouts -->
+  <text x="330" y="520" text-anchor="middle" class="small muted">Learning-only:</text>
+  <text x="330" y="540" text-anchor="middle" class="small">prediction / policy learning</text>
+
+  <text x="870" y="520" text-anchor="middle" class="small muted">Systems-only:</text>
+  <text x="870" y="540" text-anchor="middle" class="small">coordination / reliability</text>
+
+  <text x="600" y="610" text-anchor="middle" class="small muted">Constraint band emphasizes:</text>
+  <text x="600" y="630" text-anchor="middle" class="small">interpretability · verifiability · rule-based baselines</text>
+
+  <!-- Minimal frame (optional) -->
+  <rect x="20" y="20" width="1160" height="680" rx="18" fill="none" stroke="rgba(0,0,0,0.08)" stroke-width="2"/>
+</svg>

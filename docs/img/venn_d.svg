@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <style>
+      .h1 { font: 700 26px Arial, Helvetica, sans-serif; fill: #111; }
+      .h2 { font: 600 16px Arial, Helvetica, sans-serif; fill: #222; }
+      .p  { font: 14px Arial, Helvetica, sans-serif; fill: #333; }
+      .s  { font: 12px Arial, Helvetica, sans-serif; fill: #555; }
+
+      .frame { fill: none; stroke: rgba(0,0,0,0.10); stroke-width: 2; }
+      .circle { fill: rgba(0,0,0,0.03); stroke: rgba(0,0,0,0.75); stroke-width: 2.5; }
+      .band { fill: rgba(0,0,0,0.06); stroke: rgba(0,0,0,0.70); stroke-width: 2; }
+      .center { fill: rgba(255,255,255,0.92); stroke: rgba(0,0,0,0.70); stroke-width: 1.8; }
+      .divider { stroke: rgba(0,0,0,0.10); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <rect x="24" y="24" width="1152" height="712" rx="18" class="frame"/>
+
+  <text x="600" y="64" text-anchor="middle" class="h1">Research Map</text>
+  <text x="600" y="98" text-anchor="middle" class="h2">Application Domains: ITS · Smart Cities · Smart Homes</text>
+  <text x="600" y="128" text-anchor="middle" class="p">Networked &amp; Sensing: VANET · WSN · IoT · IoV · CAV</text>
+  <line x1="80" y1="152" x2="1120" y2="152" class="divider"/>
+
+  <!-- Two main circles -->
+  <circle cx="480" cy="455" r="255" class="circle"/>
+  <circle cx="720" cy="455" r="255" class="circle"/>
+
+  <!-- Deterministic band -->
+  <rect x="150" y="380" width="900" height="110" rx="18" class="band"/>
+  <text x="600" y="415" text-anchor="middle" class="h2">Deterministic Modeling &amp; Rule-Based Design</text>
+  <text x="600" y="440" text-anchor="middle" class="s">rules · logic · guarantees · interpretable control</text>
+
+  <!-- Labels -->
+  <text x="480" y="220" text-anchor="middle" class="h2">Learning-Based Methods</text>
+  <text x="480" y="242" text-anchor="middle" class="s">AI · ML · DRL / RL</text>
+
+  <text x="720" y="220" text-anchor="middle" class="h2">System Foundations</text>
+  <text x="720" y="242" text-anchor="middle" class="s">Distributed Systems · Blockchain</text>
+
+  <!-- Center focus -->
+  <rect x="405" y="505" width="390" height="86" rx="14" class="center"/>
+  <text x="600" y="542" text-anchor="middle" class="h2">AI at Scale for CPS</text>
+  <text x="600" y="568" text-anchor="middle" class="s">distributed coordination under deterministic constraints</text>
+
+  <!-- Side hints -->
+  <text x="315" y="635" text-anchor="middle" class="s">Learning-only</text>
+  <text x="315" y="655" text-anchor="middle" class="p">prediction · policy learning</text>
+
+  <text x="885" y="635" text-anchor="middle" class="s">Systems-only</text>
+  <text x="885" y="655" text-anchor="middle" class="p">reliability · coordination</text>
+</svg>
