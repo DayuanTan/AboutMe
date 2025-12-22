@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="Research map: learning-based methods and system foundations under deterministic and rule-based design constraints">
+  <defs>
+    <style>
+      .h1 { font: 700 26px Arial, Helvetica, sans-serif; fill: #111; }
+      .h2 { font: 600 16px Arial, Helvetica, sans-serif; fill: #222; }
+      .p  { font: 14px Arial, Helvetica, sans-serif; fill: #333; }
+      .s  { font: 12px Arial, Helvetica, sans-serif; fill: #555; }
+
+      .frame { fill: none; stroke: rgba(0,0,0,0.10); stroke-width: 2; }
+      .divider { stroke: rgba(0,0,0,0.10); stroke-width: 1; }
+
+      .circle { fill: rgba(0,0,0,0.03); stroke: rgba(0,0,0,0.78); stroke-width: 2.6; }
+
+      /* Deterministic band = constraint overlay (not a set) */
+      .band { fill: rgba(0,0,0,0.06); stroke: rgba(0,0,0,0.70); stroke-width: 2; }
+
+      /* Center focus inside the intersection and within the band */
+      .center { fill: rgba(255,255,255,0.92); stroke: rgba(0,0,0,0.70); stroke-width: 1.8; }
+
+      /* Small helper text */
+      .note { font: 12px Arial, Helvetica, sans-serif; fill: rgba(0,0,0,0.55); }
+    </style>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="24" y="24" width="1152" height="712" rx="18" class="frame"/>
+
+  <!-- Title -->
+  <text x="600" y="64" text-anchor="middle" class="h1">Research Map</text>
+
+  <!-- Context -->
+  <text x="600" y="98" text-anchor="middle" class="h2">
+    Application Domains: ITS · Smart Cities · Smart Homes
+  </text>
+  <text x="600" y="128" text-anchor="middle" class="h2">
+    Networked &amp; Sensing Infrastructures: VANET · CAV · WSN · IoT · IoV
+  </text>
+  <line x1="80" y1="152" x2="1120" y2="152" class="divider"/>
+
+  <!-- Two main circles (Venn) -->
+  <circle cx="480" cy="440" r="255" class="circle"/>
+  <circle cx="720" cy="440" r="255" class="circle"/>
+
+  <!-- Circle labels -->
+  <text x="460" y="230" text-anchor="middle" class="h2">Learning-Based Methods</text>
+  <text x="460" y="250" text-anchor="middle" class="s">AI · ML · DRL / RL</text>
+
+  <text x="750" y="230" text-anchor="middle" class="h2">System Foundations</text>
+  <text x="750" y="250" text-anchor="middle" class="s">Distributed Systems · Blockchain</text>
+
+  <!-- Deterministic constraint band (overlay across BOTH circles) -->
+  <rect x="150" y="360" width="900" height="100" rx="18" class="band"/>
+  <text x="600" y="380" text-anchor="middle" class="h2">Deterministic Modeling &amp; Rule-Based Design</text>
+  <text x="600" y="400" text-anchor="middle" class="s">
+    rules · logic · guarantees · interpretable control
+  </text>
+
+  <!-- Center focus: placed in the intersection AND within the band -->
+  <rect x="470" y="410" width="260" height="90" rx="14" class="center"/>
+  <text x="600" y="440" text-anchor="middle" class="h2">Reliable AI Coordination for CPS</text>
+  <text x="600" y="460" text-anchor="middle" class="s">
+    learning + distributed coordination
+  </text>
+  <text x="600" y="470" text-anchor="middle" class="s">
+    under deterministic constraints
+  </text>
+
+  <!-- Minimal callouts (optional, low-visual-weight) -->
+  <text x="425" y="630" text-anchor="middle" class="note">Learning-only: prediction · policy learning</text>
+  <text x="780" y="630" text-anchor="middle" class="note">Systems-only: coordination · reliability</text>
+
+  <!-- Tiny semantic cue -->
+  <text x="600" y="728" text-anchor="middle" class="note">
+    Intersection = core thrust; Band = constraints/guarantees (not a subset)
+  </text>
+</svg>

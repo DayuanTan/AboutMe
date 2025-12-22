@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <style>
+      .h1 { font: 700 26px Arial, Helvetica, sans-serif; fill: #111; }
+      .h2 { font: 600 16px Arial, Helvetica, sans-serif; fill: #222; }
+      .p  { font: 14px Arial, Helvetica, sans-serif; fill: #333; }
+      .s  { font: 12px Arial, Helvetica, sans-serif; fill: #555; }
+
+      .frame { fill: none; stroke: rgba(0,0,0,0.10); stroke-width: 2; }
+      .circle { fill: rgba(0,0,0,0.03); stroke: rgba(0,0,0,0.75); stroke-width: 2.5; }
+      .band { fill: rgba(0,0,0,0.06); stroke: rgba(0,0,0,0.70); stroke-width: 2; }
+      .center { fill: rgba(255,255,255,0.92); stroke: rgba(0,0,0,0.70); stroke-width: 1.8; }
+      .divider { stroke: rgba(0,0,0,0.10); stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- frame -->
+  <rect x="24" y="24" width="1152" height="712" rx="18" class="frame"/>
+
+  <!-- Title -->
+  <text x="600" y="64" text-anchor="middle" class="h1">Research Map</text>
+
+  <!-- Context -->
+  <text x="600" y="98" text-anchor="middle" class="h2">
+    Application Domains: ITS · Smart Cities · Smart Homes
+  </text>
+  <text x="600" y="128" text-anchor="middle" class="p">
+    Networked &amp; Sensing Infrastructures: VANET · WSN · IoT · IoV · CAV
+  </text>
+  <line x1="80" y1="152" x2="1120" y2="152" class="divider"/>
+
+  <!-- Two main circles -->
+  <circle cx="480" cy="470" r="255" class="circle"/>
+  <circle cx="720" cy="470" r="255" class="circle"/>
+
+  <!-- Circle labels -->
+  <text x="480" y="220" text-anchor="middle" class="h2">Learning-Based Methods</text>
+  <text x="480" y="242" text-anchor="middle" class="s">AI · ML · DRL / RL</text>
+
+  <text x="720" y="220" text-anchor="middle" class="h2">System Foundations</text>
+  <text x="720" y="242" text-anchor="middle" class="s">Distributed Systems · Blockchain</text>
+
+  <!-- Deterministic constraint band -->
+  <rect x="150" y="395" width="900" height="120" rx="18" class="band"/>
+  <text x="600" y="432" text-anchor="middle" class="h2">Deterministic Modeling &amp; Rule-Based Design</text>
+  <text x="600" y="456" text-anchor="middle" class="s">
+    rules · logic · guarantees · interpretable control
+  </text>
+
+  <!-- Center focus (intersection) -->
+  <rect x="400" y="540" width="400" height="88" rx="14" class="center"/>
+  <text x="600" y="578" text-anchor="middle" class="h2">Reliable AI Coordination for CPS</text>
+  <text x="600" y="604" text-anchor="middle" class="s">
+    learning + distributed coordination under deterministic constraints
+  </text>
+
+  <!-- Pairwise callouts (kept minimal to reduce clutter) -->
+  <text x="350" y="660" text-anchor="middle" class="s">Learning-only</text>
+  <text x="350" y="680" text-anchor="middle" class="p">prediction · policy learning</text>
+
+  <text x="850" y="660" text-anchor="middle" class="s">Systems-only</text>
+  <text x="850" y="680" text-anchor="middle" class="p">coordination · reliability</text>
+
+  <!-- Optional footer note -->
+  <text x="600" y="728" text-anchor="middle" class="s">
+    (AI × Systems) + deterministic, rule-based guarantees
+  </text>
+</svg>
