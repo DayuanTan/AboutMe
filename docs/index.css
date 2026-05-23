@@ -180,6 +180,18 @@ footer a {
 .articletitleinnotepage p a {
   font-size: 26px;
 }
+.articledetailinnotepage {
+  margin-left: 1.75rem;
+  margin-top: 0.25rem;
+  color: #555;
+}
+.articledetailinnotepage p {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+.articledetailinnotepage p a {
+  font-size: inherit;
+}
 .articleimg {
   width: 60%;
 }
